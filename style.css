@@ -126,6 +126,10 @@ input[type=search]{
     text-align: center;
 }
 
+.pet{
+    text-transform: initial;
+}
+
 #info{
     margin-top: 20px;
 }
@@ -146,4 +150,13 @@ input[type=search]{
 #info p{
     display: inline;
     font-size: 12px;
+}
+
+#settled_bloc_left{
+    display: inline-block;
+    float: left;
+    background-color: #F2F2F2;
+}
+.miniature{
+    width: 15%;
 }
