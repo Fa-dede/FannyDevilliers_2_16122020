@@ -95,19 +95,22 @@ input[type=search]{
 /* zone de filtres */
 
 #filter_zone{
+
     margin-top: 30px;
 }
 #filter_zone h5{
     display: inline;
+    margin-right: 20px;
 }
 
-.filter_btn{
+.filter_symbol{
     display: inline;
-    
+    background-color: #DEEBFF;
+    color: #0065FC;
+    text-transform: capitalize;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
 }
-
-
-
-/* div{
-    border: grey solid 1px;
-} */
