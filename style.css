@@ -2,6 +2,10 @@
     border: solid 0.2px gray;
 } */
 
+*:focus{
+    outline: none;
+}
+
 body{
     margin-left: 30px;
     font-family: 'Raleway', sans-serif;
@@ -21,11 +25,21 @@ body{
 
 }
 
+
 a{
     text-decoration: none;
     color: black;
     padding-right: 80px;
     font-size: 12px;
+}
+
+a:active{
+    color: #0065FC ;
+}
+
+#sinscrire{
+    color: #0065FC;
+    font-weight: bold;
 }
 
 #encart_de_recherche h1{
@@ -55,16 +69,19 @@ a{
     margin: 0;
 }
 
-input{
+input[type=search]{
     display: inline;
     float: left;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     border: solid 1px #F2F2F2;
     height: 35px;
+    width: 190px;
+    padding-left: 15px;
 }
 
-#encart_de_recherche  .search{
+
+#encart_de_recherche  .btn_search{
     
     color: white;
     background-color: #0065FC;
@@ -72,6 +89,25 @@ input{
     border:none;
     font-size: 14px;
     height: 35px;
-    
+    width: 110px; 
+}
+
+/* zone de filtres */
+
+#filter_zone{
+    margin-top: 30px;
+}
+#filter_zone h5{
+    display: inline;
+}
+
+.filter_btn{
+    display: inline;
     
 }
+
+
+
+/* div{
+    border: grey solid 1px;
+} */
