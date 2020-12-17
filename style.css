@@ -99,12 +99,21 @@ input[type=search]{
     margin-top: 30px;
 }
 #filter_zone h5{
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
+.filter_area{
+    display: inline-block;
+    border: solid 1px #d9d9d9;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+}
+
 .filter_symbol{
-    display: inline;
+    display: inline-block;
     background-color: #DEEBFF;
     color: #0065FC;
     text-transform: capitalize;
