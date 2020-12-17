@@ -1,6 +1,14 @@
+/* *{
+    border: solid 0.2px gray;
+} */
+
 body{
-    margin: 40px;
+    margin-left: 30px;
     font-family: 'Raleway', sans-serif;
+}
+
+#entete{
+    height: 80px;
 }
 
 #logo{
@@ -10,12 +18,20 @@ body{
 #menu li {
     display: inline-block;
     float: right;
-    padding: 20px;
 
 }
 
 a{
     text-decoration: none;
     color: black;
+    padding-right: 80px;
+    font-size: 12px;
 }
 
+#encart_de_recherche h1{
+    font-size: 18px;
+}
+
+#encart_de_recherche p{
+    font-size: 13px;
+}
