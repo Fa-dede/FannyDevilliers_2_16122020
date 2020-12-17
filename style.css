@@ -106,9 +106,11 @@ input[type=search]{
 .filter_area{
     display: inline-block;
     border: solid 1px #d9d9d9;
+    font-weight: bold;
+    text-transform: capitalize;
     border-radius: 20px;
     height: 40px;
-    width: 100px;
+    width: auto;
     justify-content: center;
 }
 
@@ -119,7 +121,29 @@ input[type=search]{
     text-transform: capitalize;
     height: 40px;
     width: 40px;
-    border: none;
+    border: solid 1px #DEEBFF;
     border-radius: 30px;
     text-align: center;
+}
+
+#info{
+    margin-top: 20px;
+}
+
+.info {
+    display: inline;
+    float: left;
+    border-radius: 10px;
+    border: solid 0.5px #d9d9d9;
+    background-color: white;
+    margin-right: 15px;
+}
+.info i{
+    color: #0065FC;
+
+}
+
+#info p{
+    display: inline;
+    font-size: 12px;
 }
