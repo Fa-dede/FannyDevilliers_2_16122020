@@ -132,6 +132,7 @@ input[type=search]{
 
 #info{
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .info {
@@ -155,8 +156,26 @@ input[type=search]{
 #settled_bloc_left{
     display: inline-block;
     float: left;
+    padding: 20px;
     background-color: #F2F2F2;
+    border-radius: 20px;
 }
+
+
 .miniature{
-    width: 15%;
+    width: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+article{
+    display: inline-block;
+    border: solid 5px white;
+    box-shadow: 6px 6px 10px #d9d9d9 ;
+    border-radius: 15px;
+    margin: 15px;
+    background-color: white;
+}
+
+.stars{
+    /* width: 50%; */
 }
