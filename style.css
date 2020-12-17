@@ -30,8 +30,48 @@ a{
 
 #encart_de_recherche h1{
     font-size: 18px;
+    font-weight: bold;
 }
 
 #encart_de_recherche p{
     font-size: 13px;
+}
+
+#location_symbol{
+    display: inline;
+    float: left;
+    border: none;
+    background-color: #F2F2F2;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+
+}
+#site-search{
+    height: 30px;
+    width: 200px;
+    margin: 0;
+}
+
+input{
+    display: inline;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border: solid 1px #F2F2F2;
+    height: 35px;
+}
+
+#encart_de_recherche  .search{
+    
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0 10px 10px 0;
+    border:none;
+    font-size: 14px;
+    height: 35px;
+    
+    
 }
