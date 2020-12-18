@@ -2,16 +2,16 @@
     border: solid 0.2px gray;
 } */
 
-*:focus{
+/* *:focus{
     outline: none;
-}
+} */
 
 body{
     margin-left: 30px;
     font-family: 'Raleway', sans-serif;
 }
 
-#entete{
+#header-bloc{
     height: 80px;
 }
 
@@ -37,21 +37,23 @@ a:active{
     color: #0065FC ;
 }
 
-#sinscrire{
+#sign-out{
     color: #0065FC;
     font-weight: bold;
 }
 
-#encart_de_recherche h1{
+/* Zone de recherche  */
+
+#search-area h1{
     font-size: 18px;
     font-weight: bold;
 }
 
-#encart_de_recherche p{
+#search-area p{
     font-size: 13px;
 }
 
-#location_symbol{
+#location-symbol{
     display: inline;
     float: left;
     border: none;
@@ -63,7 +65,7 @@ a:active{
 }
 
 }
-#site-search{
+#search-bar{
     height: 30px;
     width: 200px;
     margin: 0;
@@ -81,7 +83,7 @@ input[type=search]{
 }
 
 
-#encart_de_recherche  .btn_search{
+#search-area  .btn-search{
     
     color: white;
     background-color: #0065FC;
@@ -92,33 +94,31 @@ input[type=search]{
     width: 110px; 
 }
 
-/* zone de filtres */
+/* Zone de filtres */
 
-#filter_zone{
+#filters-area{
 
     margin-top: 30px;
 }
-#filter_zone h5{
+#filters-area h5{
     display: inline-block;
     margin-right: 20px;
 }
 
-.filter_area{
+.filter{
     display: inline-block;
     border: solid 1px #d9d9d9;
     font-weight: bold;
-    text-transform: capitalize;
     border-radius: 20px;
     height: 40px;
     width: auto;
     justify-content: center;
 }
 
-.filter_symbol{
+.filter-symbol{
     display: inline-block;
     background-color: #DEEBFF;
     color: #0065FC;
-    text-transform: capitalize;
     height: 40px;
     width: 40px;
     border: solid 1px #DEEBFF;
@@ -126,11 +126,9 @@ input[type=search]{
     text-align: center;
 }
 
-.pet{
-    text-transform: initial;
-}
+/* Bloc informationnel */
 
-#info{
+#information-bloc{
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -148,34 +146,56 @@ input[type=search]{
 
 }
 
-#info p{
+#information-bloc p{
     display: inline;
     font-size: 12px;
 }
 
-#settled_bloc_left{
+/* Bloc Hébergement */
+
+    /* Bloc Gauche */
+
+#acc-bloc-left{
     display: inline-block;
     float: left;
     padding: 20px;
     background-color: #F2F2F2;
     border-radius: 20px;
+    padding: 30px;
+    height: auto;
 }
 
 
 .miniature{
     width: 200px;
     border-radius: 15px 15px 0 0;
+    margin-bottom: -15px;
+    height: auto;
 }
 
-article{
+.art-acc-left{
     display: inline-block;
     border: solid 5px white;
     box-shadow: 6px 6px 10px #d9d9d9 ;
     border-radius: 15px;
     margin: 15px;
     background-color: white;
+    height: 230px;
+   
+}
+
+.art-acc-left h5{
+    padding-left: 8px;
+    margin-bottom: -25px;
+}
+
+.art-acc-left p{
+    font-size: 12px;
+    padding-left: 8px ;
+    margin-bottom: -15px;
 }
 
 .stars{
-    /* width: 50%; */
+   padding-left: 8px; 
+   color: #0065FC;
 }

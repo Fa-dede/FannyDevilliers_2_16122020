@@ -10,132 +10,149 @@
 </head>
 <body>
     <header>
-        <div id="entete">
+        <div id="header-bloc">
             <div id="logo">
                 <a class="logo_reservia" href="logo_reservia"><img src="img/logo/Reservia@3x.png" alt="logo_img" width="20%"></a>
             </div>
             <nav id="menu">
                 <ul>
-                    <li><a id="sinscrire" href="#sinscrire">S'inscrire</a></li>
-                    <li><a href="#activites">Activités</a></li>
-                    <li><a href="#hebergements">Hébergements</a></li>
+                    <li><a id="sign-out" href="#subscribe">S'inscrire</a></li>
+                    <li><a href="#activities">Activités</a></li>
+                    <li><a href="#accomodation">Hébergements</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="hebergements">
+    <section id="accomodation">
 
         <!-- zone de recherche  -->
         
-        <div id="encart_de_recherche">
+        <div id="search-area">
             
             <h1><strong>Trouvez votre hébergement pour des vacances de rêve</strong></h1>
             <p>En plein centre ville ou en pleine nature</p>
 
-            <button id="location_symbol"><i class="fas fa-map-marker-alt"></i></button>
-            <input type="search" id="site-search" name="q" aria-label="Search through site content">
+            <button id="location-symbol">
+                <i class="fas fa-map-marker-alt"></i>
+            </button>
 
-            <button class="btn_search">Rechercher</button>
+            <input type="search" id="search-bar" name="q" aria-label="Search through site content">
+
+            <button class="btn-search">Rechercher</button>
 
         </div>
 
         <!-- zone de filtres  -->
 
-        <div id="filter_zone">
+        <div id="filters-area">
             <h5>Filtres</h5>
 
-            <!-- filtre eco -->
-
-            <div class="filter_area">
-                <button class="filter_symbol">
+            <div id="economic-filter" class="filter">
+                <button class="filter-symbol">
                     <i class="fas fa-money-bill-wave"></i>
                 </button>
-                <a>économique</a>
+                <a>Économique</a>
             </div>
             
-            <!-- filtre familial -->
-            <div class="filter_area">
-                <button class="filter_symbol">
+            <div id="family-filter" class="filter">
+                <button class="filter-symbol">
                     <i class="fas fa-child"></i>
                 </button>
-                <a>familial</a>
+                <a>Familial</a>
             </div>
 
-            <!-- filtre romantic -->
-            <div class="filter_area">
-                <button class="filter_symbol">
+            <div id="romantic-filter" class="filter">
+                <button class="filter-symbol">
                     <i class="fas fa-heart"></i>
                 </button>
-                <a>romantique</a>
+                <a>Romantique</a>
             </div>
 
-            <!-- filtre pets -->
-            <div class="filter_area">
-                <button class="filter_symbol">
+            <div id="pet-filter" class="filter">
+                <button class="filter-symbol">
                     <i class="fas fa-dog"></i>
                 </button>
-                <a class="pet">Animaux autorisés</a>
+                <a>Animaux autorisés</a>
             </div>
         </div>
 
-        <div id="info">
+        <!-- Fin de zone de filtres  -->
+
+        <div id="information-bloc">
             <button class="info"><i class="fas fa-info"></i></button>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
 
-        <div><!-- gros bloc hebergement -->
-            <div id="settled_bloc_left"><!-- 1er bloc gauche -->
+
+
+        <div id="accomodation-bloc">
+
+            <div id="acc-bloc-left">
                 <h4>Hébergements à Marseille</h4>
 
-                <article> <!-- Auberge la Cannebière -->
+                <article class="art-acc-left"> <!-- Auberge la Cannebière -->
                     <img class="miniature" src="img/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge_la_cannebière"> 
-                    <br> Auberge la Cannebière
-                    <br>Nuit à partir de <strong>25€</strong>
-                    <br>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>          
-                </article>
-
-                <article>  <!-- Hotel du port  -->
-                    <img class="miniature" src="img/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="auberge_la_cannebière"> 
-                    <br> Hôtel du port
-                    <br>Nuit à partir de <strong>52€</strong>
+                    <br> <h5>Auberge la Cannebière</h5>
+                    <br><p>Nuit à partir de <strong>25€</strong></p>
                     <br>
                     <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>    
+                        <span>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> 
+                        </span>   
+                    </div>         
+                </article>
+
+                <article class="art-acc-left">  <!-- Hotel du port  -->
+                    <img class="miniature" src="img/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="auberge_la_cannebière"> 
+                    <br> <h5>Hôtel du port</h5>
+                    <br><p>Nuit à partir de <strong>52€</strong></p>
+                    <br>
+                    <div class="stars">
+                        <span>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> 
+                        </span>   
                     </div>      
                 </article>
 
-                <article>  <!-- Hotel Les mouettes  -->
+                <article class="art-acc-left">  <!-- Hotel Les mouettes  -->
                     <img class="miniature" src="img/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="auberge_la_cannebière"> 
-                    <br> Hôtel Les mouettes
-                    <br>Nuit à partir de <strong>76€</strong>
+                    <br> <h5>Hôtel Les mouettes</h5>
+                    <br><p>Nuit à partir de <strong>76€</strong></p>
                     <br>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>          
+                    <div class="stars">
+                        <span>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> 
+                        </span>   
+                    </div>
                 </article> <br>
 
-                <article>  <!-- Hotel de la mer  -->
+                <article class="art-acc-left">  <!-- Hotel de la mer  -->
                     <img class="miniature" src="img/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="auberge_la_cannebière"> 
-                    <br> Hôtel de la mer
-                    <br>Nuit à partir de <strong>52€</strong>
+                    <br> <h5>Hôtel de la mer</h5>
+                    <br><p>Nuit à partir de <strong>46€</strong></p>
                     <br>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>          
+                    <div class="stars">
+                        <span>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> 
+                        </span>   
+                    </div>   
                 </article>
 
 
