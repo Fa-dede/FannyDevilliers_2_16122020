@@ -2,9 +2,9 @@
     border: solid 0.2px gray;
 } */
 
-/* *:focus{
+*:focus{
     outline: none;
-} */
+}
 
 body{
     margin-left: 30px;
@@ -19,18 +19,43 @@ body{
 
     float: left;
 }
-#menu li {
-    display: inline-block;
+
+/* Barre de navigation  */
+
+#menu{
+    display: inline;
     float: right;
+    text-align: center;
+
 
 }
 
+#menu ul{
+    margin-top: 0;
+}
 
-a{
+#menu li {
+    display: inline-block;
+    padding-top: 30px;
+    margin-right: 30px;
+    border: solid 1px white;
+    /* float: right; */
+
+}
+
+#menu li:hover{
+    border-top: solid 1px #0065FC;
+    
+}
+
+#menu ul li a{
+    display: block;
+    text-align: center;
     text-decoration: none;
-    color: black;
-    padding-right: 80px;
     font-size: 12px;
+    width: auto;
+    
+
 }
 
 a:active{
@@ -43,6 +68,7 @@ a:active{
 }
 
 /* Zone de recherche  */
+
 
 #search-area h1{
     font-size: 18px;
@@ -98,7 +124,7 @@ input[type=search]{
 
 #filters-area{
 
-    margin-top: 30px;
+    margin-top: 10px;
 }
 #filters-area h5{
     display: inline-block;
@@ -126,6 +152,17 @@ input[type=search]{
     text-align: center;
 }
 
+#filters-area a{
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.filter{
+    margin-right: 20px;
+}
+
 /* Bloc informationnel */
 
 #information-bloc{
@@ -148,7 +185,7 @@ input[type=search]{
 
 #information-bloc p{
     display: inline;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 /* Bloc Hébergement */
