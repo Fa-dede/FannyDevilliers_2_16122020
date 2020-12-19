@@ -350,5 +350,10 @@ input[type=search]{
 }
 
 .art-acc-right p{
-    margin-top: 10px;
+    margin: 10px 0 28px 0
+}
+
+.art-acc-right .stars{
+    display: flexbox;
+    align-items: flex-end;
 }
