@@ -18,7 +18,7 @@ body{
 
 #logo{
 
-    display: inline-block;
+    display: block;
     float: left;
     margin-bottom: 20px;
 
@@ -356,4 +356,111 @@ input[type=search]{
 .art-acc-right .stars{
     display: flexbox;
     align-items: flex-end;
+}
+
+/* Section Activités  */
+
+/* mise en page containers  */
+
+#container-articles-123{
+    display: inline;
+
+}
+
+
+#container-article-1{
+    display: block;
+    float: left;
+}
+
+#container-articles-23{
+    display: inline-block;
+    max-width: 400px;
+    
+}
+
+#container-articles-456{
+    display: inline-block
+}
+
+#container-article-4{
+    display: block;
+    float: left;
+}
+
+/* Fin de mise en page container Activités */
+
+#activities{
+    margin-top: 50px;
+}
+
+#activities h3{
+    font-size: 25px;
+}
+
+
+.miniature-verticale{
+    display: inline-block;
+    max-width: 100%;
+    height: 410px ;
+    object-fit:cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.article-vertical{
+    display: inline-block;
+    height: 490px;
+    max-width: 306px;
+    background-color: white;
+    box-shadow: 6px 6px 10px #d9d9d9 ;
+    border-radius: 20px;
+}
+
+.article-horizontal-lg{
+    display: inline-block;
+    /* height: 100%; */
+    width: 320px;
+    margin: 0 40px 0 40px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px #d9d9d9 ;
+}
+
+.miniature-horizontale-lg{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+#activities footer h4{
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+    padding-left: 20px;
+}
+
+
+.article-horizontal-md{
+    display: inline-block;
+    height: 180px;
+    width: 320px;
+    border-radius: 20px;
+    margin: 0px 45px 0 40px;
+    box-shadow: 6px 6px 10px #d9d9d9 ;
+}
+
+.miniature-horizontale-md{
+    height: 110px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+#iles-du-frioul{
+    margin-top: 40px;
+}
+
+#notre-dame-de-la-garde{
+    margin-bottom: 40px;
 }
