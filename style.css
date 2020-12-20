@@ -1,35 +1,41 @@
-*{
+/* *{
     border: solid 0.2px gray;
-}
+} */
 
-*:focus{
+/* *:focus{
     outline: none;
+} */
+p, h1, h3, h4, h5, i{
+    cursor: default;
 }
 
 body{
-    padd
-    padding-left: 40px;
-    margin: auto;
+    margin-left: 70px;
     font-family: 'Raleway', sans-serif;
 }
 
+button{
+    cursor: pointer;
+    outline: none;
+}
+
 #header-bloc{
-    height: 80px;
+    height: auto;
     
 }
 
 #logo{
 
-    display: block;
-    float: left;
-    margin-bottom: 20px;
+    display: inline-block;
+    /* float: left; */
+    margin: 50px 0 40px 0;
 
 }
 
 /* Barre de navigation  */
 
 #menu{
-    display: inline;
+    display: block;
     float: right;
     text-align: center;
 
@@ -45,14 +51,15 @@ body{
     text-align: center;
     padding: 40px;
     min-width: 120px;
-    border: solid 3px white;
+    border: solid 4px white;
 
 }
 
 #menu li:hover{
-    border-top: solid 3px #0065FC;
-    
+    border-top: solid 4px #0065FC;
+    transition: border-top 1s ease;
 }
+
 
 #menu ul li a{
     display: block;
@@ -65,6 +72,8 @@ body{
 #menu li a:hover{
     color: #0065FC;
     font-weight: bold;
+    transition: color .5s ease;
+   
 }
 
 a:active{
@@ -76,15 +85,33 @@ a:active{
     font-weight: bold;
 }
 
+
 /* Zone de recherche  */
 
+#finder-search-filter-bloc{
+    display:flex;
+    justify-content: center;
+}
+
+#finder-bloc{
+    width: 1450px;
+    /* background-color: aquamarine; */
+}
+
+
+#search-area{
+    display: block;
+    margin-bottom: 25px;
+}
+
 #search-area h1{
-    font-size: 25px;
+    font-size: 26px;
     font-weight: bold;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 #search-area p{
+    margin: 10px 0 30px 0;
     font-size: 18px;
 
 }
@@ -107,6 +134,7 @@ input[type=search]{
     float: left;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    font-size: 18px;
     border: solid 1px #F2F2F2;
     height: 50px;
     width: 265px;
@@ -114,23 +142,22 @@ input[type=search]{
 }
 
 
-#search-area  .btn-search{
+#search-area .btn-search{
     
     color: white;
     background-color: #0065FC;
     border-radius: 0 20px 20px 0;
-    border:none;
-    font-size: 18px;
+    border:#0065FC;
+    font-size: 20px;
     height: 50px;
-    width: 135px; 
+    width: 160px; 
 }
 
 /* Zone de filtres */
 
 #filters-area{
-
-    margin-top: 10px;
-    margin-bottom: 0;
+    display: block;
+    /* margin: 10px 0 0 70px; */
 }
 #filters-area h5{
     display: inline-block;
@@ -164,8 +191,7 @@ input[type=search]{
 #filters-area a{
     font-size: 20px;
     font-weight: bold;
-    padding-right: 25px;
-    padding-left: 10px;
+    padding: 0 25px 0 10px;
 }
 
 .filter{
@@ -175,9 +201,7 @@ input[type=search]{
 /* Bloc informationnel */
 
 #information-bloc{
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 30px;
+    margin: 20px 0 50px 0;
 }
 
 .info {
@@ -229,6 +253,11 @@ input[type=search]{
 }
 
         /* Articles bloc de gauche*/
+
+.art-acc-left:hover{
+    transform: scale(1.1);
+    transition: ease .2s;
+}
 
 .miniature{
     object-fit: cover;
@@ -320,6 +349,11 @@ input[type=search]{
 
 /* Articles Hébergements droite */
 
+.art-acc-right:hover{
+    transform: scale(1.1);
+    transition: ease .2s;
+}
+
 .art-acc-right{
     background-color: white;
     padding-right: 50px;
@@ -405,7 +439,11 @@ input[type=search]{
     /* margin-left: 50px; */
 }
 
-
+.article-vertical:hover{
+    transform: scale(1.1);
+    transition: ease .2s;
+    /* margin-top: 10px; */
+}
 .miniature-verticale{
     max-width: 100%;
     height: 410px ;
@@ -421,6 +459,10 @@ input[type=search]{
     border-radius: 20px;
 }
 
+.article-horizontal-lg:hover{
+        transform: scale(1.1);
+        transition: ease .2s;
+}
 .article-horizontal-lg{
     display: inline-block;
     width: 320px;
@@ -444,6 +486,10 @@ input[type=search]{
     padding-left: 20px;
 }
 
+.article-horizontal-md:hover{
+    transform: scale(1.1);
+    transition: ease .2s;
+}
 
 .article-horizontal-md{
     height: 180px;
