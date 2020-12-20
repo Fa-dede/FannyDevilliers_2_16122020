@@ -362,33 +362,34 @@ input[type=search]{
 
 /* mise en page containers  */
 
-#container-articles-123{
-    display: inline;
-
+#container-articles-activities{
+    display: flex;
+    align-items: space-around;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-#container-article-1{
-    display: block;
-    float: left;
+.articles{
+    box-sizing: border-box;
+    display: flex;
 }
 
 #container-articles-23{
-    display: inline-block;
-    max-width: 400px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#container-articles-456{
-    display: inline-block
+#container-articles-56{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#container-article-4{
-    display: block;
-    float: left;
-}
-
-/* Fin de mise en page container Activités */
+/* Fin de mise en page containers Activités */
 
 #activities{
     margin-top: 50px;
@@ -400,7 +401,7 @@ input[type=search]{
 
 
 .miniature-verticale{
-    display: inline-block;
+    /* display: inline-block; */
     max-width: 100%;
     height: 410px ;
     object-fit:cover;
@@ -408,19 +409,20 @@ input[type=search]{
 }
 
 .article-vertical{
-    display: inline-block;
+    /* display: inline-block; */
     height: 490px;
     max-width: 306px;
     background-color: white;
     box-shadow: 6px 6px 10px #d9d9d9 ;
     border-radius: 20px;
+    margin-right: 15px;
 }
 
 .article-horizontal-lg{
     display: inline-block;
     /* height: 100%; */
     width: 320px;
-    margin: 0 40px 0 40px;
+    margin: 0 50px 0 40px;
     border-radius: 20px;
     box-shadow: 6px 6px 10px #d9d9d9 ;
 }
@@ -441,11 +443,11 @@ input[type=search]{
 
 
 .article-horizontal-md{
-    display: inline-block;
+    /* display: inline-block; */
     height: 180px;
     width: 320px;
     border-radius: 20px;
-    margin: 0px 45px 0 40px;
+    margin: 0px 50px 0 40px;
     box-shadow: 6px 6px 10px #d9d9d9 ;
 }
 
@@ -455,12 +457,4 @@ input[type=search]{
     object-fit: cover;
     border-radius: 20px 20px 0 0;
     
-}
-
-#iles-du-frioul{
-    margin-top: 40px;
-}
-
-#notre-dame-de-la-garde{
-    margin-bottom: 40px;
 }
