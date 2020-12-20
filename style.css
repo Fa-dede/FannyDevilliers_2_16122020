@@ -44,7 +44,6 @@ body{
     padding: 40px;
     min-width: 120px;
     border: solid 3px white;
-    /* float: right; */
 
 }
 
@@ -101,12 +100,6 @@ a:active{
     font-size: 20px;
 }
 
-}
-#search-bar{
-    /* height: 50px;
-    width: 300px;
-    margin: 0; */
-}
 
 input[type=search]{
     display: inline;
@@ -209,13 +202,8 @@ input[type=search]{
 
     /* Bloc Gauche */
 
-#accomodation-bloc{
-    /* padding: 0;
-    margin: 0; */
-}
-
 #acc-bloc-left{
-    display: inline-block;
+    display: iblock;
     float: left;
     padding: 50px 0px 60px 0px;
     background-color: #F2F2F2;
@@ -292,7 +280,6 @@ input[type=search]{
     font-size: 22px;
     font-weight: bold;
     margin-left: 40px;
-    /* border: black solid 1px; */
     padding-top: 40px;
 }
 
@@ -322,6 +309,7 @@ input[type=search]{
 }
 
 /* Articles Hébergements droite */
+
 .art-acc-right{
     background-color: white;
     padding-right: 50px;
@@ -392,7 +380,7 @@ input[type=search]{
 /* Fin de mise en page containers Activités */
 
 #activities{
-    margin-top: 50px;
+    margin: 50px 0 70px 0;
 }
 
 #activities h3{
@@ -401,7 +389,6 @@ input[type=search]{
 
 
 .miniature-verticale{
-    /* display: inline-block; */
     max-width: 100%;
     height: 410px ;
     object-fit:cover;
@@ -409,7 +396,6 @@ input[type=search]{
 }
 
 .article-vertical{
-    /* display: inline-block; */
     height: 490px;
     max-width: 306px;
     background-color: white;
@@ -420,7 +406,6 @@ input[type=search]{
 
 .article-horizontal-lg{
     display: inline-block;
-    /* height: 100%; */
     width: 320px;
     margin: 0 50px 0 40px;
     border-radius: 20px;
@@ -443,7 +428,6 @@ input[type=search]{
 
 
 .article-horizontal-md{
-    /* display: inline-block; */
     height: 180px;
     width: 320px;
     border-radius: 20px;
@@ -458,3 +442,20 @@ input[type=search]{
     border-radius: 20px 20px 0 0;
     
 }
+
+/* Pied de page  */
+
+#container-footer{
+    display: flex;
+    background-color: #F2F2F2;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+#container-footer strong{
+    font-size: 18px;
+}
+.column-footer{
+    margin: 50px 220px 40px 50px;
+}
+
