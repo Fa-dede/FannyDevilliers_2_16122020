@@ -7,8 +7,7 @@
 }
 
 body{
-    margin-left: 50px;
-    margin-top: 50px;
+  margin: auto;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -202,6 +201,12 @@ input[type=search]{
 
     /* Bloc Gauche */
 
+#accomodation-bloc{
+    display: flex;
+    justify-content: center;
+}
+
+
 #acc-bloc-left{
     display: iblock;
     float: left;
@@ -350,20 +355,30 @@ input[type=search]{
 
 /* mise en page containers  */
 
-#container-articles-activities{
+#section-activities{
     display: flex;
-    align-items: space-around;
+    align-content: center;
+    /* flex-direction: column; */
+}
+
+#activities{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 60px;
 }
 
 .flex{
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: center; */
 }
 
-.articles{
+/* .articles{
     box-sizing: border-box;
     display: flex;
-}
+} */
 
 #container-articles-23{
     display: flex;
@@ -379,12 +394,10 @@ input[type=search]{
 
 /* Fin de mise en page containers Activités */
 
-#activities{
-    margin: 50px 0 70px 0;
-}
-
-#activities h3{
+#activities-title h3{
+    display: inline-block;
     font-size: 25px;
+    /* margin-left: 50px; */
 }
 
 
@@ -401,15 +414,15 @@ input[type=search]{
     background-color: white;
     box-shadow: 6px 6px 10px #d9d9d9 ;
     border-radius: 20px;
-    margin-right: 15px;
 }
 
 .article-horizontal-lg{
     display: inline-block;
     width: 320px;
-    margin: 0 50px 0 40px;
+    margin: 0 50px 0px 50px;
     border-radius: 20px;
     box-shadow: 6px 6px 10px #d9d9d9 ;
+    padding-bottom: 20px;
 }
 
 .miniature-horizontale-lg{
@@ -422,7 +435,7 @@ input[type=search]{
 
 #activities footer h4{
     font-size: 20px;
-    margin: 20px 0 10px 0;
+    margin: 20px 0 0px 0;
     padding-left: 20px;
 }
 
@@ -431,7 +444,7 @@ input[type=search]{
     height: 180px;
     width: 320px;
     border-radius: 20px;
-    margin: 0px 50px 0 40px;
+    margin: 0px 50px 0 50px;
     box-shadow: 6px 6px 10px #d9d9d9 ;
 }
 
@@ -447,6 +460,8 @@ input[type=search]{
 
 #container-footer{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #F2F2F2;
     margin-left: -50px;
     margin-right: -50px;
