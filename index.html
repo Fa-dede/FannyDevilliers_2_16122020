@@ -54,34 +54,41 @@
 
         <div id="filters-area">
             <h5>Filtres</h5>
-
-            <div id="economic-filter" class="filter">
-                <button class="filter-symbol">
-                    <i class="fas fa-money-bill-wave"></i>
-                </button>
-                <a>Économique</a>
-            </div>
             
-            <div id="family-filter" class="filter">
-                <button class="filter-symbol">
-                    <i class="fas fa-child"></i>
-                </button>
-                <a>Familial</a>
+            <!-- filtres animés  -->
+
+            <div class="filter-css">
+                <div class="filter-economic"> 
+                    <p>Économique</p>
+                  <input type="checkbox" value="None" id="economic" name="check" checked />
+                  <label for="economic"><i class="fas fa-money-bill-wave"></i></label>
+                </div>
             </div>
 
-            <div id="romantic-filter" class="filter">
-                <button class="filter-symbol">
-                    <i class="fas fa-heart"></i>
-                </button>
-                <a>Romantique</a>
+            <div class="filter-css">
+                <div class="filter-family"> 
+                    <p>Familial</p>
+                  <input type="checkbox" value="None" id="family" name="check" checked />
+                  <label for="family"><i class="fas fa-child"></i></label>
+                </div>
             </div>
 
-            <div id="pet-filter" class="filter">
-                <button class="filter-symbol">
-                    <i class="fas fa-dog"></i>
-                </button>
-                <a>Animaux autorisés</a>
+            <div class="filter-css">
+                <div class="filter-romantic"> 
+                    <p>Romantique</p>
+                  <input type="checkbox" value="None" id="romantic" name="check" checked />
+                  <label for="romantic"><i class="fas fa-heart"></i></label>
+                </div>
             </div>
+
+            <div class="filter-css">
+                <div class="filter-pets"> 
+                    <p>Animaux autorisés</p>
+                  <input type="checkbox" value="None" id="pets" name="check" checked />
+                  <label for="pets"><i class="fas fa-dog"></i></label>
+                </div>
+            </div>
+
         </div>
 
         <!-- Fin de zone de filtres  -->
