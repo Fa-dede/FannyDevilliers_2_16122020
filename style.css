@@ -20,16 +20,27 @@ button, a{
 }
 
 #header-bloc{
-    height: auto;
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo{
 
-    display: inline-block;
-    /* float: left; */
-    margin: 50px 0 40px 0;
+    display: block;
+    float: left;
+    height: 80px;
+    /* width: 1170px; */
+    margin-top: 30px;
+}
 
+.logo-reservia{
+display: block;
+margin: auto;
+}
+
+#logo img{
+    height: auto;
+    width: 130px;
 }
 
 /* Barre de navigation  */
@@ -38,6 +49,7 @@ button, a{
     display: block;
     float: right;
     text-align: center;
+    /* position: fixed; */
 
 
 }
@@ -105,7 +117,7 @@ a:active{
 }
 
 #search-area h1{
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -171,7 +183,7 @@ input[type=search]{
     display: inline-block;
     width: auto;
     height: 48px;
-    background-color:;
+    background-color: transparent;
     margin: 0px auto;
     position: relative;
     border-radius: 50px;
@@ -188,23 +200,6 @@ input[type=search]{
     margin-top: 10px;
 }
 
-
- .filter-css:before {
-    content: '';
-    color: #000;
-    position: absolute;
-    right: 10px;
-    z-index: 0;
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 1px 1px 0px rgba(255,255,255,.15);
-    }
-
-.filter-css:active {
-    background-color: #DEEBFF;
-    }
-
-
 .filter-css label {
       display: block;
       width: 48px;
@@ -219,6 +214,10 @@ input[type=search]{
       transition: all 0.4s ease;
       box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
     }
+
+.filter-css label:hover{
+    transform: scale(1.1);
+}
 
 .filter-css label i{
     display: block;
@@ -364,6 +363,7 @@ input[type=search]{
 
 #acc-bloc-right{
     display: inline-block;
+    min-width: 430px;
     width: auto;
     height: auto;
     background-color: #F2F2F2;
@@ -373,17 +373,22 @@ input[type=search]{
     
 }
 
-#acc-bloc-right h4{
-    display: inline-block;
-    margin: 50px 0 0 40px;
+#title-right-bloc{
+    display: block;
+    margin: 50px 40px 0 40px;
+    
+}
+
+#title-right-bloc h4{
+    display: inline;
     font-size: 25px;
+    margin-right: 30px;
 }
 
 #popular-symbol{
     display: block;
     float: right;
-    margin: 50px 40px 0 0;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /* Articles Hébergements droite */
@@ -395,7 +400,6 @@ input[type=search]{
 
 .art-acc-right{
     background-color: white;
-    padding-right: 50px;
     margin: 40px;
     border-radius: 20px;
     height: 145px;
@@ -418,10 +422,11 @@ input[type=search]{
 .art-acc-right h3{
     display: inline-block;
     margin-bottom: 0; 
+    margin-right: 30px;
 }
 
 .art-acc-right p{
-    margin: 10px 0 28px 0
+    margin: 10px 0 28px 50px
 }
 
 .art-acc-right .stars{
