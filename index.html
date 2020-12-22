@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="petite_resolution.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f92b0b0140.js" crossorigin="anonymous"></script>
     <title>Document</title>
@@ -20,7 +21,7 @@
                 <ul>
                     <li><a href="#accomodation">Hébergements</a></li>
                     <li><a href="#activities">Activités</a></li>
-                    <li><a id="sign-out" href="#subscribe">S'inscrire</a></li>
+                    <!-- <li><a id="sign-out" href="#subscribe">S'inscrire</a></li> -->
                 </ul>
             </nav>
         </div>
@@ -46,6 +47,8 @@
                 <input type="search" id="search-bar" value="Marseille, France" onFocus="javascript:this.value=''"name="q" aria-label="Search through site content">
 
                 <button class="btn-search">Rechercher</button>
+
+                <button class="btn-search-magnifier"><i class="fas fa-search"></i></button>
             </div>
 
         </div>
@@ -254,7 +257,7 @@
             <!-- Bloc hébergements droite -->
 
             <aside id="acc-bloc-right">
-                
+
                 <div id="title-right-bloc">
                 <h4>Les plus populaires</h4>
                 <span id="popular-symbol"><i class="fas fa-chart-line"></i></span>
