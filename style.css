@@ -14,6 +14,10 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+a{
+    color: black;
+}
+
 button, a{
     cursor: pointer;
     outline: none;
@@ -31,6 +35,7 @@ button, a{
     height: 80px;
     /* width: 1170px; */
     margin-top: 30px;
+    margin-left: 50px;
 }
 
 .logo-reservia{
@@ -190,6 +195,10 @@ input[type=search]{
     border: solid 1px #F2F2F2;
     margin-right: 20px;
     margin-bottom: 0;
+}
+
+.filter-css:hover{
+    background-color: #DEEBFF;
 }
 
 .filter-css p {
