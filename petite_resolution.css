@@ -4,6 +4,7 @@
 
 body{
     margin-left: 0;
+    margin-right: 0;
 }
 
 
@@ -156,7 +157,6 @@ body{
     height: 40px;
     border-radius: 40px;
     font-size: 25px;
-    margin-top: 22px;
 }
 
 /* Section hébergements  */
@@ -164,11 +164,11 @@ body{
 /* Bloc Populaire */
 
 #title-right-bloc h4{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #popular-symbol{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #accomodation-bloc{
@@ -201,4 +201,37 @@ body{
 
 .art-acc-right h3{
     font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.art-acc-right p {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+#stars-area{
+    font-size: 25px;
+}
+
+#acc-bloc-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#acc-bloc-left h4{
+    display: block;
+    font-size: 40px;
+    margin-right: 70px;
+}
+
+.art-acc-left{
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.miniature{
+
 }
