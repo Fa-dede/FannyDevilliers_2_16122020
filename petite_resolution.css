@@ -84,8 +84,8 @@ body{
 }
 
 #global-search-bar{
-    margin-top: px;
     width: 100%;
+    margin: auto;
 
 }
 
@@ -232,6 +232,7 @@ body{
 
 .articles{
     margin-bottom: 20px;
+    width: 100%;
 }
 
 #fort-de-pomegues{

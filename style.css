@@ -30,16 +30,14 @@ button, a{
 
 #logo{
 
-    display: block;
-    float: left;
+    display: inline-block;
     height: 80px;
-    /* width: 1170px; */
     margin-top: 30px;
     margin-left: 50px;
 }
 
 .logo-reservia{
-display: block;
+display: inline-block;
 margin: auto;
 }
 
@@ -47,6 +45,14 @@ margin: auto;
     height: auto;
     width: 130px;
 }
+
+#sign-out{
+    display: block;
+    float: right;
+    color: #0065FC;
+    font-weight: bold;
+}
+
 
 /* Barre de navigation  */
 
@@ -97,11 +103,6 @@ a:active{
     color: #0065FC ;
 }
 
-#sign-out{
-    color: #0065FC;
-    font-weight: bold;
-}
-
 
 /* Zone de recherche  */
 
@@ -118,7 +119,6 @@ a:active{
 #global-search-bar{
     display: block;
     width: 70%;
-    margin: auto;
 }
 
 #search-area{
@@ -488,7 +488,7 @@ input[type=search]{
 .flex{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 /* .articles{
@@ -510,7 +510,15 @@ input[type=search]{
 
 /* Fin de mise en page containers Activités */
 
+#activities-title{
+    display: block;
+    width: 1470px;
+    margin: auto;
+}
+
+
 #activities-title h3{
+    margin-left: 0;
     display: inline-block;
     font-size: 25px;
     /* margin-left: 50px; */
