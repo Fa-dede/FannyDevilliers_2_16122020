@@ -1,6 +1,6 @@
-*{
+/* *{
     border: solid .5px black;
-}
+} */
 
 body{
     margin-left: 0;
@@ -151,7 +151,7 @@ body{
 /* Bloc Populaire */
 
 #title-right-bloc{
-    margin: 0;
+    margin: 0 0 35px 0;
 }
 
 #title-right-bloc h4{
@@ -167,7 +167,7 @@ body{
 }
 
 #acc-bloc-right{
-    padding:55px 20px 30px 20px;
+    padding:55px 20px 35px 20px;
     margin: 0;
     border-radius: 0;
 }
@@ -179,7 +179,7 @@ body{
 
 .art-acc-right{
     width: 100%;
-    margin: 25px 0 20px 0;
+    margin: 0 0 10px 0;
     border-radius: 20px;
 }
 
@@ -190,40 +190,105 @@ body{
 .miniature-2{
     width: 30%;
 }
-/*
-.art-acc-right h3{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.art-acc-right p {
-    font-size: 25px;
-    margin-bottom: 60px;
-}
-
-#stars-area{
-    font-size: 25px;
-}
 
 #acc-bloc-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 35px 20px 40px 20px;
 }
 
-
 #acc-bloc-left h4{
-    display: block;
-    font-size: 40px;
-    margin-right: 70px;
+    margin: 0 0 20px 0;
+    font-size: 28px;
 }
 
 .art-acc-left{
-    height: auto;
-    width: 80%;
-    margin: auto;
+    margin: 0 0 10px 0;
+    width: 100%;
+    height: 100%;
 }
 
-.miniature{
+.miniature {
+    height: 150px;
 
-} */
+}
+.art-acc-left:hover{
+    transform: none;
+}
+
+#acc-bloc-left a {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+/* Section activités  */
+
+#container-articles-activities{
+    padding: 0 20px 0 20px;
+}
+
+#activities-title h3{
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.articles{
+    margin-bottom: 20px;
+}
+
+#fort-de-pomegues{
+    margin-bottom: 20px;
+}
+
+#notre-dame-de-la-garde{
+    margin-bottom: 20px;
+}
+
+#container-article-1{
+   display: flex;
+}
+.article-vertical, .article-horizontal-md, .article-horizontal-lg{
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.article-vertical:hover, .article-horizontal-md:hover, .article-horizontal-lg:hover{
+    transform: none;
+}
+
+.miniature-verticale{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.miniature-horizontale-md{
+    height: 200px;
+    object-fit: cover;
+}
+
+.articles footer{
+    margin-bottom: 15px;
+}
+
+/* Section Footer  */
+
+#container-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 55px 0 50px 20px;
+}
+
+#container-footer strong{
+    font-size: 22px;
+}
+
+#container-footer a {
+    font-size: 20px;
+}
+
+.column-footer{
+    margin: 0 20px 0 0;
+    padding-left: 10px;
+}

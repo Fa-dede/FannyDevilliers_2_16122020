@@ -374,6 +374,7 @@ input[type=search]{
 }
 
 #acc-bloc-left a{
+    display: block;
     text-decoration: none;
     color: black;
     font-size: 22px;
@@ -545,7 +546,6 @@ input[type=search]{
     margin: 0 50px 0px 50px;
     border-radius: 20px;
     box-shadow: 6px 6px 10px #d9d9d9 ;
-    padding-bottom: 20px;
 }
 
 .miniature-horizontale-lg{
@@ -590,8 +590,8 @@ input[type=search]{
     flex-wrap: wrap;
     justify-content: center;
     background-color: #F2F2F2;
-    margin-left: -50px;
-    margin-right: -50px;
+    /* margin-left: -50px;
+    margin-right: -50px; */
 }
 
 #container-footer strong{
