@@ -387,7 +387,6 @@ input[type=search]{
 
 #acc-bloc-right{
     display: block;
-    min-width: 430px;
     width: auto;
     height: auto;
     background-color: #F2F2F2;

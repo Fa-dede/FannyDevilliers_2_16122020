@@ -164,6 +164,7 @@ body{
 
 #accomodation-bloc{
     display: block;
+    width: 100%;
 }
 
 #acc-bloc-right{
