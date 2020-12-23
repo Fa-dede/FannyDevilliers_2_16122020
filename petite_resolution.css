@@ -1,6 +1,6 @@
-*{
+/* *{
     border: solid .5px black;
-}
+} */
 
 body{
     margin-left: 0;
@@ -14,23 +14,28 @@ body{
 }
 
 #logo{
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 40px;
+    margin-right: 20px;
+    height: 100%;
 }
 
+#logo img{
+    width: 100px;
 
+}
 .logo-reservia{
     display: inline-block;
-    width: auto;
+   
 }
 
 #sign-out{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     display: block;
     float: right;
-    margin:20px 30px 0 0;
+    margin:15px 0px 0 0;
 }
 
 
@@ -52,7 +57,10 @@ body{
     padding: 0 0 15px 0;
     width: 50%;
     border-bottom: solid 4px transparent;
+}
 
+#menu ul li a{
+    font-size: 20px;
 }
 
 #menu ul li:hover{
@@ -62,27 +70,23 @@ body{
 }
 
 #finder-bloc{
-    padding:40px 20px 20px 20px;
-}
-
-#search-area{
-    padding-bottom: 20px;
+    padding:35px 20px 20px 20px;
 }
 
 #search-area h1{
-    font-size: 31px;
-    padding-left: 10px;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 
 #search-area p{
-    font-size: 22px;
-    padding-left: 10px;
+    font-size: 18px;
 
 }
 
 #global-search-bar{
-    margin-top: 70px;
-    transform: scale(1.4);
+    width: 100%;
+    margin: auto;
+
 }
 
 #location-symbol{
@@ -91,6 +95,12 @@ body{
 
 #search-bar{
     font-size: 19px;
+    height: 55px;
+}
+
+#location-symbol{
+    height: 55px;
+    width: 55px;
 }
 
 .btn-search{
@@ -105,8 +115,8 @@ body{
     border-radius: 15px;
     border:#0065FC;
     font-size: 18px;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     margin-left: -50px;
 }
 
@@ -122,53 +132,34 @@ body{
 }
 
 .filter-css{
-    width: auto;
-    margin-bottom: 20px;
-    height: 70px;
-    border: solid 4px #d9d9d9;
-
-}
-
-.filter-css label {
-    height: 70px;
-    width: 70px;
-
-}
-
-.filter-css label i {
-    font-size: 30px;
-    margin-top: 5px;
-}
-
-.filter-css p{
-    margin-left: 30px;
-    margin-top: 20px;
-    font-size: 25px ;
+    margin-bottom: 15px;
 }
 
 /* Bloc informationnel */
 
-#information-bloc p{
-    font-size: 25px;
+#information-bloc{
+    margin: 15px 0 35px 0;
 }
 
-.info{
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
-    font-size: 25px;
+#information-bloc p{
+    font-size: 18px;
+    margin: 0 0 0 30px;
 }
 
 /* Section hébergements  */
 
 /* Bloc Populaire */
 
+#title-right-bloc{
+    margin: 0 0 35px 0;
+}
+
 #title-right-bloc h4{
-    font-size: 40px;
+    font-size: 28px;
 }
 
 #popular-symbol{
-    font-size: 40px;
+    font-size: 28px;
 }
 
 #accomodation-bloc{
@@ -176,7 +167,7 @@ body{
 }
 
 #acc-bloc-right{
-    padding:20px 0 30px 0;
+    padding:55px 20px 35px 20px;
     margin: 0;
     border-radius: 0;
 }
@@ -187,51 +178,118 @@ body{
 }
 
 .art-acc-right{
-    height: 248px;
-    border-radius: 50px;
+    width: 100%;
+    margin: 0 0 10px 0;
+    border-radius: 20px;
+}
+
+.art-acc-right:hover{
+    transform: none;
 }
 
 .miniature-2{
-    height: 230px;
-    width: 230px;
-    object-fit: cover;
-    border-radius: 50px 0 0 50px;
-    border: solid white 10px;
-}
-
-.art-acc-right h3{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.art-acc-right p {
-    font-size: 25px;
-    margin-bottom: 60px;
-}
-
-#stars-area{
-    font-size: 25px;
+    width: 30%;
 }
 
 #acc-bloc-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 35px 20px 40px 20px;
 }
 
-
 #acc-bloc-left h4{
-    display: block;
-    font-size: 40px;
-    margin-right: 70px;
+    margin: 0 0 20px 0;
+    font-size: 28px;
 }
 
 .art-acc-left{
-    height: auto;
-    width: 80%;
-    margin: auto;
+    margin: 0 0 10px 0;
+    width: 100%;
+    height: 100%;
 }
 
-.miniature{
+.miniature {
+    height: 150px;
 
+}
+.art-acc-left:hover{
+    transform: none;
+}
+
+#acc-bloc-left a {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+/* Section activités  */
+
+#container-articles-activities{
+    padding: 0 20px 0 20px;
+}
+
+#activities-title h3{
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.articles{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#fort-de-pomegues{
+    margin-bottom: 20px;
+}
+
+#notre-dame-de-la-garde{
+    margin-bottom: 20px;
+}
+
+#container-article-1{
+   display: flex;
+}
+.article-vertical, .article-horizontal-md, .article-horizontal-lg{
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.article-vertical:hover, .article-horizontal-md:hover, .article-horizontal-lg:hover{
+    transform: none;
+}
+
+.miniature-verticale{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.miniature-horizontale-md{
+    height: 200px;
+    object-fit: cover;
+}
+
+.articles footer{
+    margin-bottom: 15px;
+}
+
+/* Section Footer  */
+
+#container-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 55px 0 50px 20px;
+}
+
+#container-footer strong{
+    font-size: 22px;
+}
+
+#container-footer a {
+    font-size: 20px;
+}
+
+.column-footer{
+    margin: 0 20px 0 0;
+    padding-left: 10px;
 }
