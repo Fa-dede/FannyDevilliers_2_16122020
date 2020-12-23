@@ -11,7 +11,7 @@ p, h1, h3, h4, h5, i{
 
 
 body{
-    margin-left: 70px;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -25,9 +25,13 @@ button, a{
 }
 
 #header-bloc{
+    display: inline-block;
+    width: 98%;
+}
+/* #header-bloc{
     display: flex;
     justify-content: space-between;
-}
+} */
 
 #logo{
 
@@ -52,6 +56,15 @@ margin: auto;
     float: right;
     color: #0065FC;
     font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 45px 50px 50px 50px;
+}
+
+#sign-out:hover{
+    background-color: #DEEBFF;
+    border-radius: 0 0 20px 20px;
+    transition: background-color .5s ease;
 }
 
 
@@ -67,7 +80,7 @@ margin: auto;
 }
 
 #menu ul{
-    margin-top: 0px;
+    margin: 0px;
 }
 
 #menu li {
@@ -598,8 +611,6 @@ Section Activités
     flex-wrap: wrap;
     justify-content: center;
     background-color: #F2F2F2;
-    /* margin-left: -50px;
-    margin-right: -50px; */
 }
 
 #container-footer strong{
