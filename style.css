@@ -1,6 +1,6 @@
-/* *{
+*{
     border: solid 0.2px gray;
-} */
+}
 
 /* *:focus{
     outline: none;
@@ -8,6 +8,7 @@
 p, h1, h3, h4, h5, i{
     cursor: default;
 }
+
 
 body{
     margin-left: 70px;
@@ -428,7 +429,7 @@ input[type=search]{
     height: 145px;
     border: solid 2px white;
     box-shadow: 6px 6px 10px #d9d9d9 ;
-    max-width: auto;
+    /* max-width: auto; */
 }
 
 .art-acc-right footer{
@@ -466,34 +467,34 @@ input[type=search]{
 
 
 
-/* Section Activités  */
+Section Activités 
 
 /* mise en page containers  */
 
 #section-activities{
-    display: flex;
-    align-content: center;
-    /* flex-direction: column; */
+    /* display: flex; */
+    /* align-content: center; */
+    /* flex-direction: column;*/
 }
 
 #activities{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
-    padding-bottom: 60px;
+    margin: auto; */
+    margin-bottom: 60px;
 }
 
 .flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-/* .articles{
-    box-sizing: border-box;
-    display: flex;
-} */
+#container-articles-activities{
+    margin: auto;
+    max-width: 1500px;
+}
 
 #container-articles-23{
     display: flex;
@@ -511,7 +512,7 @@ input[type=search]{
 
 #activities-title{
     display: block;
-    width: 1470px;
+    max-width: 1470px;
     margin: auto;
 }
 
@@ -550,7 +551,7 @@ input[type=search]{
 .article-horizontal-lg{
     display: inline-block;
     width: 320px;
-    margin: 0 50px 0px 50px;
+    margin: 0;
     border-radius: 20px;
     box-shadow: 6px 6px 10px #d9d9d9 ;
 }
@@ -578,7 +579,7 @@ input[type=search]{
     height: 180px;
     width: 320px;
     border-radius: 20px;
-    margin: 0px 50px 0 50px;
+    margin: 0;
     box-shadow: 6px 6px 10px #d9d9d9 ;
 }
 
