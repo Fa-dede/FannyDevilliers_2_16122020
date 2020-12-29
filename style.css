@@ -1,6 +1,10 @@
+ *{
+    border: solid grey .5px;
+ }
 /* *:focus{
     outline: none;
 } */
+
 p, h1, h3, h4, h5, i{
     cursor: default;
 }
@@ -21,7 +25,7 @@ button, a{
 
 #header-bloc{
     display: inline-block;
-    width: 98%;
+    width: 100%;
 }
 /* #header-bloc{
     display: flex;
@@ -31,19 +35,18 @@ button, a{
 #logo{
 
     display: inline-block;
-    height: 80px;
-    margin-top: 30px;
-    margin-left: 50px;
+    height: auto;
+    margin: 50px 0 50px 55px;
 }
 
 .logo-reservia{
-display: inline-block;
-margin: auto;
+    display: block;
+
 }
 
 #logo img{
     height: auto;
-    width: 130px;
+    width: 96px;
 }
 
 #sign-out{
@@ -51,15 +54,9 @@ margin: auto;
     float: right;
     color: #0065FC;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
     text-decoration: none;
-    padding: 45px 50px 50px 50px;
-}
-
-#sign-out:hover{
-    background-color: #DEEBFF;
-    border-radius: 0 0 20px 20px;
-    transition: background-color .5s ease;
+    padding: 55px 50px 45px 50px;
 }
 
 
@@ -81,9 +78,9 @@ margin: auto;
 #menu li {
     display: inline-block;
     text-align: center;
-    padding: 40px;
+    padding: 50px 35px 40px 35px;
     min-width: 120px;
-    border: solid 4px transparent;
+    border-top: solid 4px transparent;
 
 }
 
@@ -97,13 +94,12 @@ margin: auto;
     display: block;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     width: auto;
 }
 
 #menu li a:hover{
     color: #0065FC;
-    font-weight: bold;
     transition: color .5s ease;
    
 }
@@ -116,83 +112,60 @@ a:active{
 /* Zone de recherche  */
 
 #finder-search-filter-bloc{
-    display:flex;
-    justify-content: center;
-}
-
-#finder-bloc{
-    width: 1450px;
-    /* background-color: aquamarine; */
-}
-
-#global-search-bar{
-    display: block;
-    width: 70%;
+    margin-left: 55px;
 }
 
 #search-area{
-    display: inline-block;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 #search-area h1{
-    margin-top: 0;
-    font-size: 30px;
-    font-weight: bold;
+    margin: 0;
+    font-size: 22px;
 }
 
 #search-area p{
-    margin: 10px 0 30px 0;
-    font-size: 18px;
-
+    margin-top: 15px;
+    font-size: 16px;
 }
 
-#location-symbol{
-    /* display: block;
-    float: left; */
-    position: absolute;
-    border: none;
-    background-color: #F2F2F2;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    border-radius: 20px 0 0 20px;
-    font-size: 20px;
-}
-
-
-input[type=search]{
-    display: inline;
-    /* float: left; */
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    border: solid 1px #F2F2F2;
-    height: 50px;
-    width: 100%;
-    padding-left: 70px;
-    border-right: hidden;
-    outline-color: #0065FC;
-    border-radius: 15px;
-}
-
-
-#search-area .btn-search{
-    position: absolute;
-    color: white;
-    background-color: #0065FC;
-    border-radius: 0 20px 20px 0;
-    border:#0065FC;
-    font-size: 20px;
-    height: 50px;
-    width: 160px; 
-    margin-left: -160px;
+#global-search-bar{
+    display: flex;
+    flex-direction: flex-start;
 }
 
 .btn-search-magnifier{
-    visibility: hidden;
-    position: absolute;
+    display: none;
 }
+
+#location-symbol{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 0 0 15px;
+    font-size: 18px;
+    border: none;
+}
+
+#search-bar{
+    min-width: 10%;
+    max-width: 80%;
+    padding-left: 18px;
+    font-size: 18px ;
+    font-weight: bold;
+    border: solid 1px #d9d9d9;
+    border-left: none;
+}
+
+.btn-search{
+    width: 135px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    font-size: 18px;
+
+}
+
 
 /* Zone de filtres */
 
@@ -205,7 +178,7 @@ input[type=search]{
     display: block;
     float: left;
     margin: 15px 20px 0 0;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .filter-css {
@@ -216,7 +189,7 @@ input[type=search]{
     margin:auto;
     position: relative;
     border-radius: 50px;
-    border: solid 1px #F2F2F2;
+    border: solid 3px #F2F2F2;
     margin-right: 20px;
     margin-bottom: 0;
 }
@@ -226,11 +199,11 @@ input[type=search]{
 }
 
 .filter-css p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 60px;
-    margin-right: 60px;
-    margin-top: 10px;
+    margin-right: 48px;
+    margin-top: 13px;
 }
 
 .filter-css label {
@@ -247,10 +220,6 @@ input[type=search]{
       transition: all 0.4s ease;
       box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
     }
-
-.filter-css label:hover{
-    transform: scale(1.1);
-}
 
 .filter-css label i{
     display: block;
@@ -272,42 +241,46 @@ input[type=search]{
 /* Bloc informationnel */
 
 #information-bloc{
-    margin: 20px 0 50px 0;
+    margin: 38px 0 38px 0;
 }
 
 .info {
     display: inline;
+    height: 25px;
+    width: 25px;
     float: left;
-    border-radius: 10px;
+    border-radius: 20px;
     border: solid 0.5px #d9d9d9;
     background-color: white;
-    margin-right: 15px;
 }
 .info i{
     color: #0065FC;
+    font-size: 12px;
 
 }
 
 #information-bloc p{
-    display: block;
-    font-size: 18px;
-    margin-left: 20px;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 5px;;
 }
 
 /* Bloc Hébergement */
 
 #accomodation-bloc{
     display:flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: row-reverse;
     margin: auto;
+    margin-left: 55px;
 }
 
     /* Bloc Gauche */
 
 #acc-bloc-left{
     display: inline-block;
-    padding: 50px 0px 60px 0px;
+    padding: 48px 0px 60px 0px;
     background-color: #F2F2F2;
     border-radius: 20px;
     height: auto;
@@ -317,22 +290,22 @@ input[type=search]{
 
 #acc-bloc-left h4{
     display: block;
-    font-size: 24px;
-    margin: 0 0 25px 40px;
+    font-size: 17px;
+    margin: 0 0 30px 40px;
     
 }
 
         /* Articles bloc de gauche*/
 
-.art-acc-left:hover{
+/* .art-acc-left:hover{
     transform: scale(1.1);
     transition: ease .2s;
-}
+} */
 
 .miniature{
     object-fit: cover;
     width: 100%;
-    max-height: 57%;
+    max-height: 115px;
     border-radius: 15px 15px 0 0;
     margin-bottom: 5px;
     
@@ -347,33 +320,30 @@ input[type=search]{
     margin-bottom: 38px;
     background-color: white;
     height: 200px;
-    width: 246px;
+    width: 248px;
    
 }
 
 .art-acc-left h5{
-    font-size: 18px;
-    padding-left: 8px;
-    margin-bottom: -6px;
+    font-size: 16px;
+    padding-left: 18px;
+    margin-bottom: -8px;
     margin-top: 0;
 }
 
 .art-acc-left p{
-    font-size: 16px;
-    padding-left: 8px ;
+    font-size: 14px;
+    padding-left: 18px ;
     margin-bottom: 0px;
 }
 
-#stars-area{
-    padding-left: 8px;
-    padding-bottom: 0;
-    margin-bottom: 0;
+.stars-area{
+    padding-left: 18px;
     margin-top: 5px;
-    font-size: 15px;
+
 }
+
 .stars{
-    
-    padding-left: 0px; 
     color: #0065FC;
     
 }
@@ -471,19 +441,17 @@ input[type=search]{
     display: block;
     margin-left: 0px;
 }
-}
-
 
 
 /* Section Activités  */
 
 /* mise en page containers  */
 
-#section-activities{
+/* #section-activities{
     /* display: flex; */
     /* align-content: center; */
     /* flex-direction: column;*/
-}
+
 
 #activities{
     /* display: flex;
