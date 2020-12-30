@@ -184,14 +184,15 @@ a:active{
 .filter-css {
     display: inline-block;
     /* width: auto; */
-    height: 48px;
+    height: 46px;
     background-color: transparent;
     margin:auto;
     position: relative;
     border-radius: 50px;
-    border: solid 3px #F2F2F2;
+    border: solid 2px #c7c4c4;
     margin-right: 20px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .filter-css:hover{
@@ -202,23 +203,22 @@ a:active{
     font-size: 15px;
     font-weight: bold;
     padding-left: 60px;
-    margin-right: 48px;
+    margin-right: 20px;
     margin-top: 13px;
 }
 
 .filter-css label {
       display: block;
-      width: 48px;
-      height: 48px;
-      cursor: pointer;
+      width: 50px;
+      height: 50px;
       position: absolute;
-      top: 0px;
+      top: -2px;
       right: 0px;
+      left: 10px;
       z-index: 1;
       background: #DEEBFF;
       border-radius: 50px;
       transition: all 0.4s ease;
-      box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
     }
 
 .filter-css label i{
@@ -235,7 +235,7 @@ a:active{
     }
 
 .filter-css input:checked + label {
-       left: 0;
+       left: -4px;
   }
 
 /* Bloc informationnel */
@@ -269,28 +269,36 @@ a:active{
 /* Bloc Hébergement */
 
 #accomodation-bloc{
-    display:flex;
-    /* justify-content: center; */
-    flex-direction: row-reverse;
-    margin: auto;
+    /* display: inline-block; */
     margin-left: 55px;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    /* margin-left: 55px; */
 }
 
     /* Bloc Gauche */
 
 #acc-bloc-left{
-    display: inline-block;
-    padding: 48px 0px 60px 0px;
+    display: block;
+    /* display: inline-block; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 48px 30px 45px 0px;
+    margin-right: 45px;
     background-color: #F2F2F2;
     border-radius: 20px;
     height: auto;
-    max-width: 930px;
-    /* margin-left: -40px; */
+    max-width: 900px;
 }
+   
+   
+   
 
 #acc-bloc-left h4{
     display: block;
-    font-size: 17px;
+    width: 310px;
+    font-size: 24px;
     margin: 0 0 30px 40px;
     
 }
@@ -317,11 +325,16 @@ a:active{
     box-shadow: 6px 6px 10px #d9d9d9 ;
     border-radius: 15px;
     margin-left: 38px;
-    margin-bottom: 38px;
+    margin-bottom: 30px;
     background-color: white;
     height: 200px;
     width: 248px;
    
+}
+
+.text-article-left{
+    display: block;
+    margin-left: 18px;
 }
 
 .art-acc-left h5{
@@ -337,8 +350,12 @@ a:active{
     margin-bottom: 0px;
 }
 
-.stars-area{
+#acc-bloc-left .stars-area{
     padding-left: 18px;
+
+}
+
+.stars-area{
     margin-top: 5px;
 
 }
@@ -354,30 +371,31 @@ a:active{
 
 #acc-bloc-left a{
     display: block;
+    width: 120px;
     text-decoration: none;
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     margin-left: 40px;
-    padding-top: 40px;
 }
 
 /* Bloc Hebergements droite  */
 
 #acc-bloc-right{
-    display: block;
+    /* display: inline; */
+    /* float: right; */
     width: auto;
-    height: auto;
+    height: 657px;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
     
 }
 
 #title-right-bloc{
     display: block;
-    margin: 50px 40px 0 40px;
+    margin: 45px 40px 0 40px;
     
 }
 
@@ -395,19 +413,14 @@ a:active{
 
 /* Articles Hébergements droite */
 
-.art-acc-right:hover{
-    transform: scale(1.1);
-    transition: ease .2s;
-}
-
 .art-acc-right{
     background-color: white;
-    margin: 40px;
+    margin: 30px;
     border-radius: 20px;
     height: 145px;
     border: solid 2px white;
     box-shadow: 6px 6px 10px #d9d9d9 ;
-    /* max-width: auto; */
+    width: 345px;
 }
 
 .art-acc-right footer{
@@ -428,12 +441,14 @@ a:active{
 
 .art-acc-right h3{
     display: inline-block;
-    width: 50%;
+    font-size: 16px;
+    /* width: 50%; */
     margin: 20px 0 5px 0;
 }
 
 .art-acc-right p{
     display: inline-block;
+    font-size: 14px;
     margin: 0 0 25px 0;
 }
 
