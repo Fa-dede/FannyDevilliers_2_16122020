@@ -1,6 +1,6 @@
- *{
+ /* *{
     border: solid grey .5px;
- }
+ } */
 /* *:focus{
     outline: none;
 } */
@@ -535,7 +535,7 @@ a:active{
     height: 490px;
     max-width: 306px;
     background-color: white;
-    box-shadow: 6px 6px 10px #d9d9d9 ;
+    box-shadow: 2px 2px 12px #d9d9d9 ;
     border-radius: 20px;
 }
 
@@ -550,7 +550,7 @@ a:active{
     margin: 0;
     padding-bottom: 20px;
     border-radius: 20px;
-    box-shadow: 6px 6px 10px #d9d9d9 ;
+    box-shadow: 2px 2px 12px #d9d9d9 ;
 }
 
 .miniature-horizontale-lg{
@@ -577,7 +577,7 @@ a:active{
     width: 320px;
     border-radius: 20px;
     margin: 0;
-    box-shadow: 6px 6px 10px #d9d9d9 ;
+    box-shadow: 2px 2px 12px #d9d9d9 ;
 }
 
 .miniature-horizontale-md{
