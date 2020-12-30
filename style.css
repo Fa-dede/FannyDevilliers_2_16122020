@@ -329,7 +329,7 @@ a:active{
 .art-acc-left{
     display: inline-block;
     border: solid 5px white;
-    box-shadow: 6px 6px 10px #d9d9d9 ;
+    box-shadow: 2px 2px 12px #d9d9d9 ;
     border-radius: 15px;
     margin-left: 38px;
     margin-bottom: 30px;
@@ -429,7 +429,7 @@ a:active{
     border-radius: 20px;
     height: 145px;
     border: solid 2px white;
-    box-shadow: 6px 6px 10px #d9d9d9 ;
+    box-shadow: 2px 2px 12px #d9d9d9 ;
     width: 345px;
 }
 
