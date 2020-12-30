@@ -1,6 +1,6 @@
-/* *{
+*{
     border: solid .5px black;
-} */
+}
 
 body{
     margin-left: 0;
@@ -190,16 +190,19 @@ body{
 }
 
 #acc-bloc-left{
-    padding: 35px 20px 40px 20px;
+    padding: 35px 25px 30px 20px;
+    margin-right: 0px;
 }
 
 #acc-bloc-left h4{
     margin: 0 0 20px 0;
     font-size: 28px;
+    width: auto;
 }
 
 .art-acc-left{
-    margin: 0 0 15px 0;
+    margin: 0 0 20px 0;
+    /* padding-right: 20px; */
     width: 100%;
     height: 100%;
 }
