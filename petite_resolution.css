@@ -1,6 +1,6 @@
-*{
+/* *{
     border: solid .5px black;
-}
+} */
 
 body{
     margin-left: 0;
@@ -190,7 +190,7 @@ body{
 }
 
 #acc-bloc-left{
-    padding: 35px 25px 30px 20px;
+    padding: 35px 20px 30px 20px;
     margin-right: 0px;
 }
 
@@ -226,7 +226,7 @@ body{
 /* Section activités  */
 
 #container-articles-activities{
-    padding: 0 50px 0 20px;
+    padding: 0 20px 0 20px;
 }
 
 #activities-title h3{
