@@ -1,0 +1,153 @@
+*{
+    /* border: solid 1px grey; */
+}
+
+#header-bloc{
+    /* display: block; */
+    position: fixed;
+    top: 0;
+    height: 120px;
+    background: rgba(255,255,255, 0.8);
+    z-index: 6;
+}
+
+#header-bloc:hover{
+    background: rgba(255,255,255, 1);
+}
+
+#finder-search-filter-bloc{
+    display: block;
+    margin: 130px 0 0 20px;
+}
+#accomodation-bloc{
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+}
+
+#acc-bloc-right{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+#title-right-bloc{
+    display: block;
+    margin: 15px 20px 0 25px;
+}
+
+#container-popular{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.art-acc-right{
+    display: inline-block;
+
+    width: 250px;
+    height: auto;
+}
+
+.miniature-2{
+    display: block;
+    width: 98%;
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+
+}
+
+.art-acc-right h3{
+    margin-top: 0;
+}
+
+ .art-acc-right p, h3, footer{
+    margin-bottom: 0;
+    padding-left: 18px;
+}
+
+#acc-bloc-left{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+#acc-bloc-left h4{
+    margin: 20px 0 20px 20px;
+}
+
+.container-left{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.art-acc-left{
+    margin: 0;
+        display: inline-block;
+        width: 250px;
+        height: auto;
+
+}
+
+#display-more{
+    margin: 0 0 20px 20px;
+}
+
+#activities{
+    margin: 0;
+}
+
+#activities-title{
+    margin: 30px 0 20px 20px;
+}
+
+#activities-title h3{
+    margin: 0;
+    padding: 0;
+}
+
+#container-articles-activities{
+    margin: 0 20px 20px 20px;
+    flex-wrap: nowrap;
+}
+
+.article-vertical{
+    width: 180px;
+}
+
+.miniature-verticale{
+    width: 180px;
+}
+
+.article-horizontal-md, .article-horizontal-lg{
+    width: 252px;
+}
+.miniature-horizontale-md, .miniature-horizontale-lg{
+    width: 250px;
+}
+
+#activities footer h4{
+    padding: 0;
+    margin: 10px 0 0 -10px;
+    font-size: 18px;
+}
+
+#container-footer{
+    padding: 0;
+    justify-content: space-between;
+}
+
+.column-footer{
+    margin: 20px 0 0 0;
+}
+
+#column1{
+    margin-left: 20px;
+}
+
+#column3{
+    margin-right: 20px;
+}

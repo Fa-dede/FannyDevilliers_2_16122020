@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="petite_resolution.css" />
+    <link rel="stylesheet" media="screen and (min-width:601px) and (max-width: 1024px)" href="moyenne_resolution.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f92b0b0140.js" crossorigin="anonymous"></script>
     <title>Document</title>
@@ -126,7 +127,9 @@
                 <span id="popular-symbol"><i class="fas fa-chart-line"></i></span>
 
                 </div>
-    
+                
+                <div id="container-popular">
+
                 <article id="hotel-le-soleil-du-matin" class="art-acc-right">
                     <a href="">
                     <img class="miniature-2" src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel-le-soleil-du-matin">
@@ -186,6 +189,8 @@
                     </footer> 
                 </a>
                 </article>
+                </div>
+            
             </aside>
 
         <!-- Bloc hébergements Gauche  -->
@@ -193,6 +198,7 @@
         <div id="acc-bloc-left">
             <h4>Hébergements à Marseille</h4>
 
+            <div class="container-left">
             <article id="auberge-la-cannebiere" class="art-acc-left">
                 <a href="">
                 <img class="miniature" src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge_la_cannebière"> 
@@ -250,7 +256,9 @@
                 </footer>   
                 </a>   
             </article>
+            </div>
 
+            <div class="container-left">
             <article id="hotel-de-la-mer" class="art-acc-left">
                 <a href="">
                 <img class="miniature" src="img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel-de-la-mer"> 
@@ -307,12 +315,16 @@
                 </footer> 
                 </a>
             </article>
+            </div>
+
 
             <div id="display-more">
             <a href="" >Afficher plus</a></div>
         </div>
 
         </div>
+
+        
 
         <!-- fin bloc herbergement gauche -->
 
