@@ -18,7 +18,7 @@ a{
     color: black;
 }
 
-button,{
+button{
     cursor: pointer;
     outline: none;
 }
@@ -138,29 +138,77 @@ a:active{
 
 #global-search-bar{
     display: flex;
-    flex-direction: flex-start;
+    /* border: solid 2px #F2F2F2; */
+    border-radius: 20px;
+    max-width: 480px;
+    
 }
+
+
 
 .btn-search-magnifier{
     display: none;
 }
 
 #location-symbol{
+    /* margin : 1px 0 1px 0; */
+    display: inline;
+    padding: 1px 0 1px 1px;
     height: 50px;
     width: 50px;
     border-radius: 15px 0 0 15px;
     font-size: 18px;
-    border: none;
+    border: solid 4px transparent;
+    /* border: solid 1px #F2F2F2; */
+    /* border-top: none; */
+    z-index: 4;
+    cursor: pointer;
 }
 
 #search-bar{
-    min-width: 10%;
-    max-width: 80%;
-    padding-left: 18px;
+    /* min-width: 10%; */
+    max-height: 50px;
+    max-width: 100%;
+    width: 480px;
+    padding-left: 65px;
     font-size: 18px ;
     font-weight: bold;
-    border: solid 1px #d9d9d9;
-    border-left: none;
+    /* border: none; */
+    border: solid 1px #F2F2F2;
+    border-radius: 15px;
+    /* border-left: none; */
+    margin-left: -50px;
+}
+
+#search-bar::placeholder{
+    color: black;
+}
+
+#search-bar:focus {
+    outline: none;
+    border: #0065FC solid 2px;
+    border-radius: 15px;
+    background-color: transparent;
+    z-index: 5;
+}
+
+/* Lettre capitale dans le input  */
+
+#search-bar[type="search"]{
+    text-transform: capitalize;
+}
+
+/* Cancel cross déplacement */
+
+#search-bar::-webkit-search-cancel-button{
+    display: block;
+    position: relative;
+    right: 130px;
+}
+
+#search-bar::-webkit-search-results-decoration{
+    display: block;
+    background: transparent;
 }
 
 .btn-search{
@@ -170,6 +218,7 @@ a:active{
     background-color: #0065FC;
     color: white;
     font-size: 18px;
+    margin-left: -130px;
 
 }
 
@@ -204,6 +253,7 @@ a:active{
 
 .filter-css:hover{
     background-color: #DEEBFF;
+    border: solid 2px #DEEBFF;
 }
 
 .filter-css p {
