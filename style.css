@@ -251,10 +251,11 @@ a:active{
     cursor: pointer;
 }
 
-.filter-css:hover{
+/* .filter-css:hover{
     background-color: #DEEBFF;
     border: solid 2px #DEEBFF;
-}
+} */
+
 
 .filter-css p {
     font-size: 15px;
@@ -271,11 +272,12 @@ a:active{
       position: absolute;
       top: -2px;
       right: 0px;
-      left: 10px;
+      left: -2px;
       z-index: 1;
       background: #DEEBFF;
       border-radius: 50px;
       transition: all 0.4s ease;
+      cursor: pointer;
     }
 
 .filter-css label i{
@@ -288,12 +290,27 @@ a:active{
 
 .filter-css input[type=checkbox] {
       visibility:hidden;
-      position: absolute;
+      /* position: absolute; */
     }
 
+
 .filter-css input:checked + label {
-       left: -4px;
+    width: 105%;
+       /* left: 6px; */
+
   }
+  
+  .filter-css input:checked + label{
+      background-color: #0065FC;
+  }
+
+  .filter-css input:checked + label .fas {
+      color: #DEEBFF;
+  }
+
+
+
+
 
 /* Bloc informationnel */
 

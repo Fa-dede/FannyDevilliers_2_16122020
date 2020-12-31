@@ -228,10 +228,6 @@ body{
     height: 100%;
 }
 
-.miniature {
-    /* height: 150px; */
-
-}
 .art-acc-left:hover{
     transform: none;
 }
