@@ -1,6 +1,6 @@
-/* *{
+*{
     border: solid 1px grey;
-} */
+}
 
 #header-bloc{
     /* display: block; */
@@ -21,56 +21,77 @@
 }
 #accomodation-bloc{
     flex-direction: column;
-    margin: 0 20px 0 20px;
+    margin: 0 ;
 }
 
 #acc-bloc-right{
     display: inline-block;
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    padding: 20px 0 20px 0;
+    /* margin-bottom: 20px; */
+    border-radius: 0;
     /* display: flex; */
     /* justify-content: space-around; */
 }
 
 #title-right-bloc{
     display: block;
-    margin: 15px 20px 0 25px;
+    width: 90%;
+    margin: 20px 20px 20px 25px;
 }
 
 #container-popular{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    height: 260px;
+    /* width: 100%; */
+    padding:0 ;
+    margin: 0 20px 20px 20px;
 }
-.art-acc-right{
-    display: inline-block;
 
-    width: 250px;
-    height: auto;
+
+.art-acc-right{
+    display: block;
+    margin: 0;
+    /* width: 100%; */
+    padding-right: 5px;
+    height: 250px;
+    width: 30%;
+   
 }
+
 
 .miniature-2{
-    display: block;
-    width: 98%;
-    border-radius: 20px 20px 0 0;
+    display: inline;
+    object-fit: cover;
+    width: 100%;
     margin: 0;
+    border-radius: 20px 20px 0 0;
 
 }
 
-.art-acc-right h3{
-    margin-top: 0;
-}
 
  .art-acc-right p, h3, footer{
     margin-bottom: 0;
     padding-left: 18px;
 }
 
+.art-acc-right p{
+    display: block;
+}
+
+.stars-area{
+    padding-bottom: 10px;
+}
+
 #acc-bloc-left{
     margin: 0;
-    padding: 0;
+    padding: 20px 0 20px 0;
     max-width: 100%;
+    border-radius: 0;
+    background-color: #fff;
 }
 
 #acc-bloc-left h4{
@@ -79,16 +100,20 @@
 
 .container-left{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    min-height: 450px;
+    /* height: 100%; */
+    /* width: 100%; */
+    margin:0 20px 20px 20px;
 }
 
 .art-acc-left{
     margin: 0;
-        display: inline-block;
-        width: 250px;
-        height: auto;
+    /* display: inline-block; */
+    width: 28%;
+    height: 200px;
 
 }
 
@@ -151,3 +176,31 @@
 #column3{
     margin-right: 20px;
 }
+
+@media (max-width: 852px) {
+
+
+
+    #hotel-le-soleil-du-matin, #au-coeur-de-l-eau{
+        width: 45%;
+        min-width:20%;
+        margin: 0;
+    }
+    
+    #hotel-tout-bleu-et-blanc{
+    
+        display: none;
+    }
+    
+    .container-left article{
+        width: 45%;
+    }
+    
+    .container-left{
+        justify-content: space-between;
+    }
+    .container-left article{
+        margin-bottom: 20px;
+    }
+
+    }

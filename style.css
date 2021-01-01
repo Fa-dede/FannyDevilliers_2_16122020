@@ -519,8 +519,8 @@ a:active{
 .art-acc-right h3{
     display: inline-block;
     font-size: 16px;
-    /* width: 50%; */
-    margin: 20px 0 5px 0;
+    width: auto;
+    margin: 10px 0 5px 0px;
 }
 
 .art-acc-right p{
@@ -615,7 +615,6 @@ a:active{
     display: inline-block;
     width: 320px;
     margin: 0;
-    padding-bottom: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 12px #d9d9d9 ;
 }

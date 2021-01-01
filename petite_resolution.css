@@ -165,15 +165,16 @@ body{
 /* Bloc Populaire */
 
 #title-right-bloc{
-    margin: 0 0 35px 0;
+    margin: 0 0 20px 0 ;
 }
 
 #title-right-bloc h4{
-    font-size: 28px;
+    font-size: 22px;
+    margin-right: 0;
 }
 
 #popular-symbol{
-    font-size: 28px;
+    font-size: 22px;
 }
 
 #accomodation-bloc{
@@ -183,7 +184,7 @@ body{
 
 #acc-bloc-right{
     height: auto;
-    padding:55px 20px 35px 20px;
+    padding:40px 20px 25px 20px;
     margin: 0;
     border-radius: 0;
 }
@@ -194,18 +195,28 @@ body{
 }
 
 .art-acc-right{
+    display: inline-block;
     width: 100%;
-    height: 85%;
+    height: 100%;
     margin: 0 0 15px 0;
     border-radius: 20px;
+    /* max-width: 350px; */
 }
 
-.art-acc-right:hover{
-    transform: none;
+.art-acc-right h3{
+    display: block;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.art-acc-right p{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .miniature-2{
-    width: 35%;
+    width: 120px;
     height: 125px;
     /* height: 85%; */
 }
@@ -217,7 +228,7 @@ body{
 
 #acc-bloc-left h4{
     margin: 0 0 20px 0;
-    font-size: 28px;
+    font-size: 22px;
     width: auto;
 }
 
@@ -236,19 +247,19 @@ body{
     margin: 0;
 }
 #display-more a {
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     padding: 0;
 }
 
 /* Section activités  */
 
 #container-articles-activities{
-    padding: 0 20px 0 20px;
+    padding: 0 20px 30px 20px;
 }
 
 #activities-title h3{
     margin-left: 20px;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .articles{
@@ -274,9 +285,6 @@ body{
     margin: 0;
 }
 
-.article-vertical:hover, .article-horizontal-md:hover, .article-horizontal-lg:hover{
-    transform: none;
-}
 
 .miniature-verticale{
     object-fit: cover;
@@ -303,6 +311,9 @@ body{
     margin-bottom: 15px;
 }
 
+#activities footer h4{
+    font-size: 18px;
+}
 /* Section Footer  */
 
 #container-footer{
@@ -312,11 +323,11 @@ body{
 }
 
 #container-footer strong{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 #container-footer a {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .column-footer{
