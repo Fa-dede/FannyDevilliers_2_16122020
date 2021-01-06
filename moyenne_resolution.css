@@ -6,14 +6,33 @@
     /* display: block; */
     position: fixed;
     top: 0;
-    height: 120px;
+    height: 90px;
     background: rgba(255,255,255, 0.8);
     z-index: 6;
 }
 
 #logo{
-    margin-left: 20px;
+    margin : 35px 0 0 20px
 }
+
+#logo img{
+    width: 100px;
+}
+
+#menu li{
+    padding: 50px 0 0 0;
+}
+
+#menu ul li a{
+    font-size: 14px;
+}
+
+#sign-out{
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+
 
 #header-bloc:hover{
     background: rgba(255,255,255, 1);
@@ -21,7 +40,12 @@
 
 #finder-search-filter-bloc{
     display: block;
-    margin: 130px 0 0 20px;
+    margin: 130px 20px 0 20px;
+}
+
+#search-bar{
+    width: 520px;
+    margin-left: -55px;
 }
 #accomodation-bloc{
     flex-direction: column;
@@ -59,10 +83,9 @@
 .art-acc-right{
     display: block;
     margin: 0;
-    /* width: 100%; */
+    width: 10%;
     padding-right: 5px;
-    height: 250px;
-    width: 30%;
+    height: 100%
    
 }
 

@@ -96,28 +96,30 @@ body{
 
 #global-search-bar{
     max-width: none;
+    height: 50px;
 }
 
-#location-symbol{
-    width: 70px;
-    /* height: 70px; */
-}
 #search-bar{
     width: 100%;
-    font-size: 25px;
-    height: 100px;
-    /* margin-left: -50px; */
+    font-size: 18px;
+    padding-left: 60px;
+    /* height: 0px; */
+    margin-left: -50px;
 }
 
 #search-area h1{
-    font-size: 30px;
+    font-size: 22px;
     margin-bottom: 15px;
 }
 
 #search-area p{
-    font-size: 22px;
+    font-size: 16px;
     margin-bottom: 40px;
 
+}
+
+#location-symbol{
+    height: 50px;
 }
 
 .btn-search{
@@ -126,10 +128,10 @@ body{
 
 .btn-search-magnifier{
     display: flex;
-    width: 60px;
+    width: 50px;
     align-items: center;
-    padding-left: 20px;
-    font-size: 20px;
+    padding-left: 15px;
+    font-size: 18px;
     color: white;
     background-color: #0065FC;
     border-radius: 15px;
@@ -150,14 +152,33 @@ body{
 
 #filters-area h5{
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px ;
     margin-top: 0;
 }
 
 .filter-css{
     margin-bottom: 15px;
+    height: 36px;
 }
+
+.filter-css p{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 50px;
+    margin-right: 15px;
+}
+
+.filter-css label{
+    height: 40px;
+    width: 40px;
+}
+
+.filter-css label i{
+    font-size: 18px;
+    padding-top: 11px;
+}
+
 
 /* Bloc informationnel */
 
@@ -169,7 +190,7 @@ body{
 #information-bloc p{
     display: block;
     margin: 0 0 0 40px;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 3px;
 
 }
@@ -183,13 +204,13 @@ body{
 }
 
 #title-right-bloc h4{
-    font-size: 30px;
+    font-size: 22px;
     margin-right: 0;
 }
 
 
 #popular-symbol{
-    font-size: 30px;
+    font-size: 22px;
 }
 
 #accomodation-bloc{
@@ -214,25 +235,25 @@ body{
 
 .art-acc-right h3{
     display: block;
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 16px;
+    margin-top: 5px;
     padding-top: 10px;
 }
 
 .art-acc-right p{
     display: block;
-    font-size: 17px;
+    font-size: 14px;
     margin-top: 10px;
-    margin-bottom: 75px;
+    margin-bottom: 40px;
 }
 
 .stars, .grey-stars{
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .miniature-2{
-    width: 180px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
     /* height: 85%; */
 }
 
@@ -245,7 +266,7 @@ body{
 
 #acc-bloc-left h1{
     margin: 10px 0 30px 0;
-    font-size: 28px;
+    font-size: 22px;
     width: auto;
 }
 
@@ -253,16 +274,16 @@ body{
     margin: 0 20px 20px 0;
     /* padding-right: 20px; */
     width: 100%;
-    height: 260px;
+    height: 200px;
 }
 
 .art-acc-left h5{
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .art-acc-left p{
-    font-size: 19px;
-    margin-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .miniature{
@@ -275,7 +296,7 @@ body{
 #display-more a {
     margin: 10px 0 0 0;
     padding: 0;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 /* Section activités  */
@@ -289,7 +310,7 @@ body{
 }
 
 #activities-title h3{
-    font-size: 35px 1vmin;
+    font-size: 22px;
 }
 
 #container-articles-activities{
@@ -307,12 +328,12 @@ body{
 
 #fort-de-pomegues{
     margin-bottom: 20px;
-    height: 205px;
+    height: 190px;
 }
 
 #iles-du-frioul{
     margin-bottom: 20px;
-    height: 205px;
+    height: 190px;
 }
 
 #container-article-4{
@@ -321,22 +342,26 @@ body{
 
 #notre-dame-de-la-garde{
     margin-bottom: 20px;
-    height: 205px;
+    height: 190px;
 }
 
 #parc-longchamp{
     margin-bottom: 20px;
-    height: 205px;
+    height: 190px;
 }
 
 .article-vertical, .articles-horizontal-md, .articles-horizontal-lg{
-    height: 205px;
-    margin-bottom: 30px;
+    height: 190px;
+    margin-bottom: 20px;
+}
+
+.legend{
+    /* height: 50px; */
 }
 
 .legend p{
-    font-size: 21px;
-    margin-top: 15px;
+    font-size: 17px;
+    margin-top: 20px;
     margin-left: 25px;
 }
 
@@ -411,11 +436,11 @@ body{
 }
 
 #container-footer strong{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #container-footer a {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .column-footer{
