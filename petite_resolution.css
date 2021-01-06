@@ -37,7 +37,7 @@ body{
 
 #sign-out{
     padding: 0;
-    margin-top: 35px;
+    margin: 35px 0 0 0;
     width: 100px;
     font-size: 17px;
     font-weight: bold;
@@ -112,9 +112,9 @@ body{
 
 .btn-search-magnifier{
     display: flex;
-    width: 50px;
+    width: 60px;
     align-items: center;
-    padding-left: 16px;
+    padding-left: 20px;
     font-size: 18px;
     color: white;
     background-color: #0065FC;
@@ -122,7 +122,6 @@ body{
     border: none;
     margin-left: -50px;
 }
-
 #search-bar::-webkit-search-cancel-button{
     display: block;
     position: relative;
@@ -173,6 +172,7 @@ body{
     margin-right: 0;
 }
 
+
 #popular-symbol{
     font-size: 22px;
 }
@@ -200,7 +200,7 @@ body{
     height: 100%;
     margin: 0 0 15px 0;
     border-radius: 20px;
-    /* max-width: 350px; */
+    max-width: none;
 }
 
 .art-acc-right h3{
@@ -253,6 +253,66 @@ body{
 
 /* Section activités  */
 
+#activities{
+    margin: 0;
+}
+
+#activities-title{
+    margin-left: 20px;
+}
+
+#activities-title h3{
+    font-size: 35px 1vmin;
+}
+
+#container-articles-activities{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles, .articles-lg-md{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 30px 0 20px;
+}
+
+#fort-de-pomegues{
+    margin-bottom: 20px;
+    height: 205px;
+}
+
+#iles-du-frioul{
+    margin-bottom: 20px;
+    height: 205px;
+}
+
+#container-article-4{
+    margin-left: 20px;
+}
+
+#notre-dame-de-la-garde{
+    margin-bottom: 20px;
+    height: 205px;
+}
+
+#parc-longchamp{
+    margin-bottom: 20px;
+    height: 205px;
+}
+
+.article-vertical, .articles-horizontal-md, .articles-horizontal-lg{
+    height: 205px;
+    margin-bottom: 30px;
+}
+
+.legend p{
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+/* 
 #container-articles-activities{
     padding: 0 20px 30px 20px;
 }
@@ -313,7 +373,7 @@ body{
 
 #activities footer h4{
     font-size: 18px;
-}
+} */
 /* Section Footer  */
 
 #container-footer{
