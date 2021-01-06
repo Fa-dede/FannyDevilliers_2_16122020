@@ -2,10 +2,10 @@
     border: solid .5px black;
 } */
 
-body{
+/* body{
     margin-left: 0;
     margin-right: 0;
-}
+} */
 
 
 /* #header-bloc{
@@ -14,7 +14,8 @@ body{
 } */
 
 #header-bloc{
-    margin-top: 10px;
+    margin:0
+    width: 100%;
 }
 
 #logo{
@@ -100,6 +101,7 @@ body{
 }
 
 #search-bar{
+    min-width: 20px;
     width: 100%;
     font-size: 18px;
     padding-left: 60px;
