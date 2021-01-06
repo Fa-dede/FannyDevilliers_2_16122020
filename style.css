@@ -167,20 +167,21 @@ a:active{
     /* min-width: 10%; */
     max-height: 60px;
     max-width: 100%;
-    width: 450px;
-    padding-left: 65px;
+    /* min-width: 480px; */
+    padding-left: 80px;
     /* font-size: 18px ; */
     font-weight: bold;
     /* border: none; */
     border: solid 1px #F2F2F2;
     border-radius: 15px;
     /* border-left: none; */
-    margin-left: -50px;
+    margin-left: -60px;
+    font-size: 22px;
 }
 
 #search-bar::placeholder{
     color: black;
-    font-size: 21px;
+    /* font-size: 22px; */
 }
 
 #search-bar:focus {
@@ -404,7 +405,7 @@ a:active{
 .miniature{
     object-fit: cover;
     width: 100%;
-    max-height: 125px;
+    height: 125px;
     border-radius: 15px 15px 0 0;
     margin-bottom: 3px;
     
