@@ -163,12 +163,14 @@
     margin: 40px 0 20px 20px;
 }
 
+/* Section Activités  */
+
 #activities{
-    margin: 0;
+    margin: 0 20px 40px 20px;
 }
 
 #activities-title{
-    margin: 30px 0 20px 20px;
+    margin: 30px 0 20px 0;
 }
 
 #activities-title h3{
@@ -176,25 +178,43 @@
     padding: 0;
 }
 
-#container-articles-activities{
-    margin: 0 20px 20px 20px;
-    flex-wrap: nowrap;
+#containers-articles-activities{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-article-1{
+    width: 40% ;
 }
 
 .article-vertical{
-    width: 180px;
+    width: 100%;
 }
-
 .miniature-verticale{
-    width: 180px;
+    width: 100%;
+    /* display: none; */
 }
 
-.article-horizontal-md, .article-horizontal-lg{
-    width: 252px;
+#fort-de-pomegues{
+    height: 250px;
+    margin-bottom: 40px;
 }
-.miniature-horizontale-md, .miniature-horizontale-lg{
-    width: 250px;
+
+#container-article-4{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 0;
 }
+
+#notre-dame-de-la-garde{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Footer  */
+
 
 #activities footer h4{
     padding: 0;
