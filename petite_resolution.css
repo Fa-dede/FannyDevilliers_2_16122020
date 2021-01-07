@@ -3,46 +3,42 @@
 } */
 
 body{
-    margin-left: 0;
-    margin-right: 0;
-}
-
-
-#header-bloc{
-    display: flex;
-    flex-direction: column;
+    overflow-x: hidden;
 }
 
 #logo{
-    margin-left: 20px;
-    margin-bottom: 40px;
-    margin-right: 20px;
+    display: inline-block;
+    max-width: 120px;
     height: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
 }
 
 #logo img{
     width: 100px;
-
-}
-.logo-reservia{
-    display: inline-block;
-   
 }
 
 #sign-out{
-    font-size: 20px;
+    padding: 0;
+    margin: 35px 0 0 0;
+    width: 100px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     display: block;
     float: right;
-    margin:15px 0px 0 0;
+    /* padding-right: 0; */
 }
 
 
 #menu{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 5px;
 
 }
 
@@ -56,11 +52,11 @@ body{
 #menu ul li{
     padding: 0 0 15px 0;
     width: 50%;
-    border-bottom: solid 4px transparent;
+    border-bottom: solid 4px #f2f2f2;
 }
 
 #menu ul li a{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #menu ul li:hover{
@@ -69,56 +65,67 @@ body{
     transition: border-bottom .5s ease;
 }
 
+#finder-search-filter-bloc, #accomodation-bloc, #activities{
+    margin: 0;
+}
+
 #finder-bloc{
-    padding:35px 20px 20px 20px;
+    padding:35px 20px 20px 30px;
+}
+
+/* Zone de recherche */
+
+#global-search-bar{
+    max-width: none;
+    height: 50px;
+}
+
+#search-bar{
+    min-width: 20px;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 80px;
+    margin-left: -60px;
 }
 
 #search-area h1{
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 15px;
 }
 
 #search-area p{
-    font-size: 18px;
-
-}
-
-#global-search-bar{
-    width: 100%;
-    margin: auto;
+    font-size: 16px;
+    margin-bottom: 40px;
 
 }
 
 #location-symbol{
-    border-radius: 15px 0 0 15px;
-}
-
-#search-bar{
-    font-size: 19px;
-    height: 55px;
-}
-
-#location-symbol{
-    height: 55px;
-    width: 55px;
+    height: 50px;
 }
 
 .btn-search{
-    visibility: hidden;
-    position: absolute;
+    display: none;
 }
 
 .btn-search-magnifier{
-    visibility: visible;
+    display: flex;
+    width: 50px;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 18px;
     color: white;
     background-color: #0065FC;
     border-radius: 15px;
-    border:#0065FC;
-    font-size: 18px;
-    height: 55px;
-    width: 55px;
+    border: none;
     margin-left: -50px;
 }
+#search-bar::-webkit-search-cancel-button{
+    display: block;
+    position: relative;
+    right: 50px;
+}
+
+
 
 #filters-area{
     display: inline-block;
@@ -126,24 +133,47 @@ body{
 
 #filters-area h5{
     width: 100%;
-    font-size: 26px;
+    font-size: 20px;
     margin-bottom: 20px ;
     margin-top: 0;
 }
 
 .filter-css{
     margin-bottom: 15px;
+    height: 36px;
 }
+
+.filter-css p{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 50px;
+    margin-right: 15px;
+}
+
+.filter-css label{
+    height: 40px;
+    width: 40px;
+}
+
+.filter-css label i{
+    font-size: 18px;
+    padding-top: 11px;
+}
+
 
 /* Bloc informationnel */
 
 #information-bloc{
-    margin: 15px 0 35px 0;
+    margin: 15px 0 30px 0;
 }
 
+
 #information-bloc p{
-    font-size: 18px;
-    margin: 0 0 0 30px;
+    display: block;
+    margin: 0 0 0 40px;
+    font-size: 15px;
+    padding-top: 3px;
+
 }
 
 /* Section hébergements  */
@@ -151,126 +181,166 @@ body{
 /* Bloc Populaire */
 
 #title-right-bloc{
-    margin: 0 0 35px 0;
+    margin: 0 0 30px 0 ;
 }
 
 #title-right-bloc h4{
-    font-size: 28px;
+    font-size: 22px;
+    margin-right: 0;
 }
+
 
 #popular-symbol{
-    font-size: 28px;
+    font-size: 22px;
 }
 
+#accomodation{
+    margin: 0;
+}
 #accomodation-bloc{
     display: block;
+    /* width: 100%; */
 }
 
 #acc-bloc-right{
-    padding:55px 20px 35px 20px;
-    margin: 0;
+    height: auto;
+    padding:40px 30px 25px 30px;
     border-radius: 0;
+}
+
+.art-acc-right{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 15px 0;
+    border-radius: 20px;
+    max-width: none;
+}
+
+.art-acc-right h3{
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.art-acc-right p{
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.stars, .grey-stars{
+    font-size: 12px;
+}
+
+.miniature-2{
+    width: 140px;
+    height: 140px;
 }
 
 #acc-bloc-left{
     border-radius: 0;
     background-color: white;
+    padding: 35px 0 5px 30px;
+    margin-right: 0px;
 }
 
-.art-acc-right{
-    width: 100%;
-    margin: 0 0 10px 0;
-    border-radius: 20px;
-}
-
-.art-acc-right:hover{
-    transform: none;
-}
-
-.miniature-2{
-    width: 30%;
-}
-
-#acc-bloc-left{
-    padding: 35px 20px 40px 20px;
-}
-
-#acc-bloc-left h4{
-    margin: 0 0 20px 0;
-    font-size: 28px;
+#acc-bloc-left h1{
+    margin: 10px 0 30px 0;
+    font-size: 22px;
+    width: auto;
 }
 
 .art-acc-left{
-    margin: 0 0 10px 0;
+    margin: 0 30px 20px 0;
     width: 100%;
-    height: 100%;
+    height: 200px;
 }
 
-.miniature {
-    height: 150px;
-
-}
-.art-acc-left:hover{
-    transform: none;
+.art-acc-left h5{
+    font-size: 16px;
 }
 
-#acc-bloc-left a {
-    margin: 20px 0 0 0;
+.art-acc-left p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.miniature{
+    height: 60%;
+}
+
+#display-more{
+    margin-top: 20px;
+}
+#display-more a {
+    margin: 10px 0 0 0;
     padding: 0;
+    font-size: 16px;
 }
 
 /* Section activités  */
 
-#container-articles-activities{
-    padding: 0 20px 0 20px;
+#activities{
+    margin-bottom: 50px;
+}
+
+#activities-title{
+    margin-left: 30px;
 }
 
 #activities-title h3{
-    margin-left: 20px;
-    font-size: 28px;
+    font-size: 22px;
 }
 
-.articles{
-    margin-bottom: 20px;
+#container-articles-activities{
     width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles, .articles-lg-md{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 30px 0 30px;
 }
 
 #fort-de-pomegues{
     margin-bottom: 20px;
+    height: 190px;
+}
+
+#iles-du-frioul{
+    margin-bottom: 20px;
+    height: 190px;
+}
+
+#container-article-4{
+    margin-left: 30px;
 }
 
 #notre-dame-de-la-garde{
     margin-bottom: 20px;
+    height: 190px;
 }
 
-#container-article-1{
-   display: flex;
-}
-.article-vertical, .article-horizontal-md, .article-horizontal-lg{
-    max-width: 100%;
-    height: 100%;
-    width: 100%;
-    margin: 0;
+#parc-longchamp{
+    margin-bottom: 20px;
+    height: 190px;
 }
 
-.article-vertical:hover, .article-horizontal-md:hover, .article-horizontal-lg:hover{
-    transform: none;
+.article-vertical, .articles-horizontal-md, .articles-horizontal-lg{
+    height: 190px;
+    margin-bottom: 20px;
 }
 
-.miniature-verticale{
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 20px 20px 0 0;
-}
-
-.miniature-horizontale-md{
-    height: 200px;
-    object-fit: cover;
-}
-
-.articles footer{
-    margin-bottom: 15px;
+.legend p{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 25px;
 }
 
 /* Section Footer  */
@@ -278,18 +348,23 @@ body{
 #container-footer{
     display: flex;
     flex-direction: column;
-    padding: 55px 0 50px 20px;
+    padding: 50px 0 50px 30px;
 }
 
 #container-footer strong{
-    font-size: 22px;
-}
-
-#container-footer a {
     font-size: 20px;
 }
 
+#container-footer a {
+    font-size: 18px;
+}
+
 .column-footer{
-    margin: 0 20px 0 0;
+    margin: 0 20px 0px 0;
     padding-left: 10px;
 }
+
+#column1, #column2{
+    margin-bottom: 40px;
+}
+
