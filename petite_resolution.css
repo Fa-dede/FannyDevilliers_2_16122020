@@ -180,6 +180,10 @@ body{
 
 /* Bloc Populaire */
 
+/* #container-popular{
+    margin-right: 50px;
+} */
+
 #title-right-bloc{
     margin: 0 0 30px 0 ;
 }
@@ -204,7 +208,7 @@ body{
 
 #acc-bloc-right{
     height: auto;
-    padding:40px 30px 25px 30px;
+    padding:40px 40px 25px 30px;
     border-radius: 0;
 }
 
@@ -214,7 +218,8 @@ body{
     height: 100%;
     margin: 0 0 15px 0;
     border-radius: 20px;
-    max-width: none;
+    min-width: 280px;
+    max-height: 145px;
 }
 
 .art-acc-right h3{
@@ -236,7 +241,7 @@ body{
 }
 
 .miniature-2{
-    width: 140px;
+    width: 40%;
     height: 140px;
 }
 
